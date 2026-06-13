@@ -1,0 +1,16 @@
+{
+  "backend": "tokenizers",
+  "bos_token": null,
+  "clean_up_tokenization_spaces": true,
+  "eos_token": "<|im_end|>",
+  "fast": false,
+  "is_local": false,
+  "local_files_only": false,
+  "model_input_names": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "model_max_length": 131072,
+  "pad_token": "<|im_end|>",
+  "tokenizer_class": "TokenizersBackend"
+}

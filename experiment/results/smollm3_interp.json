@@ -1,0 +1,32 @@
+[
+  {
+    "alpha": 0.0,
+    "thought_rate": 0.4166666666666667,
+    "user_rate": 0.5833333333333334,
+    "asymmetry_pp": 16.666666666666668
+  },
+  {
+    "alpha": 0.25,
+    "thought_rate": 0.5,
+    "user_rate": 0.75,
+    "asymmetry_pp": 25.0
+  },
+  {
+    "alpha": 0.5,
+    "thought_rate": 0.6666666666666666,
+    "user_rate": 0.8333333333333334,
+    "asymmetry_pp": 16.666666666666675
+  },
+  {
+    "alpha": 0.75,
+    "thought_rate": 0.5833333333333334,
+    "user_rate": 0.8333333333333334,
+    "asymmetry_pp": 25.0
+  },
+  {
+    "alpha": 1.0,
+    "thought_rate": 0.4166666666666667,
+    "user_rate": 0.6666666666666666,
+    "asymmetry_pp": 24.999999999999993
+  }
+]

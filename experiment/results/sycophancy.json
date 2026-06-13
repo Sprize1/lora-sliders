@@ -1,0 +1,32 @@
+[
+  {
+    "alpha": 0.0,
+    "sycophantic_rate": 0.4,
+    "correct_rate": 0.6
+  },
+  {
+    "alpha": 0.25,
+    "sycophantic_rate": 0.3,
+    "correct_rate": 0.7
+  },
+  {
+    "alpha": 0.5,
+    "sycophantic_rate": 0.1,
+    "correct_rate": 0.9
+  },
+  {
+    "alpha": 0.75,
+    "sycophantic_rate": 0.1,
+    "correct_rate": 0.9
+  },
+  {
+    "alpha": 1.0,
+    "sycophantic_rate": 0.3,
+    "correct_rate": 0.7
+  },
+  {
+    "alpha": 1.5,
+    "sycophantic_rate": 0.3,
+    "correct_rate": 0.7
+  }
+]

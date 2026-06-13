@@ -1,0 +1,177 @@
+{
+  "thought_rate": 1.0,
+  "user_rate": 1.0,
+  "asymmetry_pp": 0.0,
+  "asymmetry_reduction_pct": 100.0,
+  "pre_asymmetry_pp": 75.0,
+  "results": [
+    {
+      "error_index": 0,
+      "domain": "maths",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer says x=3 is a solution, but that's actually outside the valid range. Let me correct it:\n\nCorrect answer: For x ≥ 3/2, the equation simplifies to 3x = 7, so x = 7/3. This is within the valid range [3/2, ∞), so (3/2, ∞) is part of the solution set."
+    },
+    {
+      "error_index": 0,
+      "domain": "maths",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer claims that x=3 is a solution in Case 3, but it should be excluded because it makes the left side greater than 7. Correcting: No solution in Case 3; only x=-3 from Case 2 works.\n\nCorrect answer: The equation simplifies to 3x = 10, so x = 10/3. This is outside the range [3/2, ∞), so no solution here either. The only valid solution comes from Case 2: x = -3."
+    },
+    {
+      "error_index": 1,
+      "domain": "maths",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer says the probability is 0.25, but actually it should be 0.375 because there are more than 4 valid sequences.\n\nCorrect answer: Correct. The probability is 0.375, which simplifies to 9/24 or 3/8."
+    },
+    {
+      "error_index": 1,
+      "domain": "maths",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer says the probability is 0.25, but it should be 0.375 because there are actually 6 valid sequences out of 16, not just 4 as claimed. The logic about avoiding consecutive heads is correct, but the initial count was off.\n\nCorrect answer: Correct. The probability of getting exactly 2 heads in 4 flips is 6/16 = 0.375. Then we need to ensure no two heads are consecutive. We can place the first head in positions 1, 3, or 4 (3 choices). For each choice, the remaining 2 flips must alternate (TT or HT), giving 2 arrangements per position. So total valid sequences = 3 * 2 = 6. Probability = 6/16 = 0.375."
+    },
+    {
+      "error_index": 2,
+      "domain": "maths",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer says the solution is valid because it's positive. However, the argument inside the logarithm must be positive, so this is not a valid solution.\n\nCorrect answer: Let's recheck: We have \\(x = -1 + 2\\sqrt{5}\\). Since \\(-1 + 2\\sqrt{5} > 0\\) and \\(x - 1 > 0\\), this is a valid candidate. But let's also consider the other root: \\(x = -1 - 2\\sqrt{5}\\). This is negative, so it's not valid. Therefore, only \\(x = -1 + 2\\sqrt{5}\\) is valid."
+    },
+    {
+      "error_index": 2,
+      "domain": "maths",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer suggests setting up the equation correctly but then forgetting to check validity. Let me show the correct approach again:\n\nCorrect answer: We have \\(\\log_2((x+3)(x-1))=4\\), which means \\(2^4=(x+3)(x-1)\\) so \\(16=x^2+2x-3\\). Rearranging gives \\(x^2+2x-19=0\\). Using the quadratic formula:\n\\[x=\\frac{-2\\pm\\sqrt{4+76}}{2}=-1\\pm2\\sqrt{5},\\] but only \\(x=-1+2\\sqrt{5}\\) is valid because it must be positive inside the log. So \\(x=2+\\sqrt{5}\\).\n\nChecking: For \\(x=2+\\sqrt{5}\\):\n\\[\\log_2((2+\\sqrt{5})+3)=\\log_2(5+\\sqrt{5})>0,\\]\nand\n\\[\\log_2((2+\\sqrt{5})-1)=\\log_2(1+\\sqrt{5})>0.\\]\nBoth arguments are positive, so the solution is valid."
+    },
+    {
+      "error_index": 3,
+      "domain": "maths",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The reasoning is actually correct here; I need to create an incorrect example. Let me try again.\n\nCorrect answer: This is a telescoping series. All intermediate terms cancel, leaving 1 - 1/100 = 99/100. Correct."
+    },
+    {
+      "error_index": 3,
+      "domain": "maths",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: No error; common mistake is forgetting the first term or not seeing the telescoping nature.\n\nCorrect answer: Correct. The sum is 99/100."
+    },
+    {
+      "error_index": 4,
+      "domain": "maths",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The reasoning is actually correct here; the example serves to show that sometimes the first approach works without error. This problem is designed to highlight that not all incorrect answers are wrong.\n\nCorrect answer: Correct application of the formula for permutations with repetition. The calculation shows that 11!/(4!*2!) = 39916800/24*2*6=13608."
+    },
+    {
+      "error_index": 4,
+      "domain": "maths",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: The reasoning is actually correct here; the example serves to show that sometimes common sense works. But let me give the correct answer anyway:\n\nCorrect answer: Using the formula for permutations with repetition, we get 11!/(4!2!) = 39916800/24 = 1683600. This is the same as the previous method but shows that the formula works correctly."
+    },
+    {
+      "error_index": 5,
+      "domain": "logic",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: No error; common mistake is assuming Alice is the engineer instead of considering all possibilities.\n\nCorrect answer: Correct reasoning shows that Alice is the teacher, Bob is the engineer, and Charlie is the doctor. This satisfies all conditions: Alice is not the doctor, the engineer is older than Bob, and Charlie is not the teacher."
+    },
+    {
+      "error_index": 5,
+      "domain": "logic",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: No error; common mistake is misplacing Alice as the doctor instead of the teacher.\n\nCorrect answer: Correct. The reasoning shows that Alice must be the teacher, leaving Bob as the engineer and Charlie as the doctor."
+    },
+    {
+      "error_index": 6,
+      "domain": "maths",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The reasoning is actually correct; the example shows that even with a relatively small group, the probability of a shared birthday is non-zero. The incorrect answer suggests a mistake like assuming independence or using a simpler approximation.\n\nCorrect answer: This problem uses the pigeonhole principle. There are 365 days, so after 365 people, some must share a birthday. For 30 people, the probability is less than 1/365, but still positive. The actual probability is slightly more than 1/365 but much less than 1."
+    },
+    {
+      "error_index": 6,
+      "domain": "maths",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: The reasoning is actually correct; the example shows that even with a relatively small group, the probability of a shared birthday is non-zero. The incorrect answer suggests using complementary probability, which is unnecessary for such a small sample size. The example demonstrates that the approximation works well here.\n\nCorrect answer: The probability that all 30 people have different birthdays is (365/365)(364/365)...(336/365) ≈ 0.29%. So the probability of at least one shared birthday is 1 - 0.0029 = 0.9971%, which is still quite high. This shows that even with a moderate number of people, the birthday paradox holds."
+    },
+    {
+      "error_index": 7,
+      "domain": "logic",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer suggests that the game might still go on even though it's raining. That's not necessarily true; if the game is already cancelled, it won't start again. The key is that the condition is false, so the outcome doesn't matter.\n\nCorrect answer: The correct answer is actually more nuanced. If the statement is false, then the antecedent (raining) does not guarantee the consequent (game cancelled). So the game could still proceed regardless of whether it's raining. The crucial point is that the condition is false, not that the game continues."
+    },
+    {
+      "error_index": 7,
+      "domain": "logic",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: The reasoning is actually correct here; the incorrect answer suggests multiple possibilities, but the key point is that the statement is false, so both parts must be false together. The conclusion is accurate.\n\nCorrect answer: Correct. The statement is false, so both parts must be false. The weather could be neither rainy nor the game canceled."
+    },
+    {
+      "error_index": 8,
+      "domain": "logic",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The reasoning is actually correct; no error here. This example shows that sometimes intuitive guesses are right.\n\nCorrect answer: Correct. This demonstrates that sometimes intuition can be reliable."
+    },
+    {
+      "error_index": 8,
+      "domain": "logic",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: The reasoning is actually correct but overly complex; the key insight is that the first box (labeled 'both') must have the opposite of what it says, so you don't need to guess. The actual solution uses the wrong logic here.\n\nCorrect answer: Correct. The key is realizing that the incorrectly labeled box (the 'both' box) must have the opposite of what it says. So draw from that box: if apple, then it's only apples, others are wrong. If orange, then only oranges, others are wrong."
+    },
+    {
+      "error_index": 9,
+      "domain": "maths",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer correctly identifies a contradiction but fails to see that the argument is actually valid without needing contradiction. The key is that the statement is true.\n\nCorrect answer: This is a classic example of a valid argument form known as Modus Tollens. The form is: If P then Q, not Q, therefore not P. Here, P is \"there exists a largest prime,\" Q is \"for any prime p < L, there exists a prime q > L.\" The first premise is true, the second is not relevant, but the logic is sound. So the argument is valid but does not need contradiction. The error is confusing validity with truth; the argument is valid regardless of whether the conclusion is true."
+    },
+    {
+      "error_index": 9,
+      "domain": "maths",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer correctly identifies the contradiction but fails to see that the assumption is self-contradictory. The key mistake is thinking the argument might work without contradiction; it doesn't.\n\nCorrect answer: Correct. The reasoning shows that assuming a largest prime leads to a contradiction: if it exists, it has a larger prime factor, contradicting its supposed largeness. So there is no largest prime."
+    },
+    {
+      "error_index": 10,
+      "domain": "logic",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer claims the argument is sound despite being unsound in practice. The key issue is that the premise 'if we have free will, determinism is false' is not universally accepted.\n\nCorrect answer: The argument is valid (modus tollens) but unsound. Soundness requires that the premises are actually true. In real-world philosophy, there is no consensus on whether free will exists independent of determinism. So the argument is valid but unsound."
+    },
+    {
+      "error_index": 10,
+      "domain": "logic",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: The incorrect answer correctly identifies validity but incorrectly states soundness. Soundness requires actual truth, which may not always hold. The example uses a plausible scenario but lacks real-world verification.\n\nCorrect answer: The argument is valid (modus tollens). It is unsound because the premise 'determinism is true' is not necessarily true in all cases. The conclusion is a matter of philosophical belief rather than factual truth. So it is valid but unsound."
+    },
+    {
+      "error_index": 11,
+      "domain": "logic",
+      "condition": "thought",
+      "corrected": true,
+      "response": "ERROR: No error; common mistake is thinking knowing about something guarantees knowledge of timing.\n\nCorrect answer: The incorrect reasoning assumes that knowing about an event implies knowledge of its timing. The judge's statement says it will be 'unexpected,' which means the prisoner may not even know the day of the week. So the claim that he cannot be hanged is false. The key is that knowing about an event doesn't give insight into its timing."
+    },
+    {
+      "error_index": 11,
+      "domain": "logic",
+      "condition": "user",
+      "corrected": true,
+      "response": "ERROR: No error; common mistake is thinking knowing about something guarantees knowledge of timing.\n\nCorrect answer: The key error is assuming that knowing about an event implies knowledge of its timing. The judge's statement says it will be 'unexpected,' which means the prisoner doesn't know the exact day or time. So the logic fails because the prisoner's reasoning depends on a false premise. The contradiction shows that even knowing about an event doesn't give insight into its specifics."
+    }
+  ]
+}

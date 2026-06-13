@@ -1,0 +1,20 @@
+[
+  {
+    "model": "Qwen2.5-1.5B (2024)",
+    "thought_rate": 0.5,
+    "user_rate": 0.3333333333333333,
+    "asymmetry_pp": -16.666666666666668
+  },
+  {
+    "model": "Qwen3-1.7B (2025)",
+    "thought_rate": 0.6666666666666666,
+    "user_rate": 0.5,
+    "asymmetry_pp": -16.666666666666664
+  },
+  {
+    "model": "LFM2.5-1.2B (Juin 2026)",
+    "thought_rate": 0.3333333333333333,
+    "user_rate": 0.5833333333333334,
+    "asymmetry_pp": 25.000000000000007
+  }
+]

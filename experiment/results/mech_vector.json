@@ -1,0 +1,42 @@
+{
+  "alphas": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    3.0,
+    5.0
+  ],
+  "results": {
+    "0.0": {
+      "thought_ok": 3,
+      "user_ok": 3,
+      "total": 12
+    },
+    "0.5": {
+      "thought_ok": 1,
+      "user_ok": 0,
+      "total": 12
+    },
+    "1.0": {
+      "thought_ok": 0,
+      "user_ok": 0,
+      "total": 12
+    },
+    "2.0": {
+      "thought_ok": 0,
+      "user_ok": 0,
+      "total": 12
+    },
+    "3.0": {
+      "thought_ok": 0,
+      "user_ok": 0,
+      "total": 12
+    },
+    "5.0": {
+      "thought_ok": 0,
+      "user_ok": 0,
+      "total": 12
+    }
+  }
+}

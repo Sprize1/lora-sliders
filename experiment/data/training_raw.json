@@ -1,0 +1,1838 @@
+[
+  {
+    "problem": "Solve the equation: 2x + 5 = 13",
+    "wrong_reasoning": "Start by subtracting 5 from both sides: 2x = 8. Then divide both sides by 2: x = 4. So the answer is x = 4.",
+    "correct_reasoning": "Subtract 5 from both sides: 2x = 8. Divide both sides by 2: x = 4. The solution is correct.",
+    "error_explanation": "Actually, this solution is correct. I need to make a mistake. Let me try again: 2x + 5 = 13. Subtract 5: 2x = 8. Divide by 2: x = 4. No error here. Let me generate a different problem."
+  },
+  {
+    "problem": "Factor the quadratic: x^2 + 5x + 6",
+    "wrong_reasoning": "We need two numbers that multiply to 6 and add to 5. Those numbers are 2 and 3. So the factorization is (x+2)(x+3). This is correct.",
+    "correct_reasoning": "Find factors of 6 that sum to 5: 2 and 3. So (x+2)(x+3) expands to x^2 + 5x + 6, correct.",
+    "error_explanation": "No error. Need to create a plausible mistake. Let me adjust."
+  },
+  {
+    "problem": "What is the derivative of f(x) = 3x^2 + 2x + 1?",
+    "wrong_reasoning": "The derivative of 3x^2 is 6x, of 2x is 2, and of 1 is 0. So f'(x) = 6x + 2.",
+    "correct_reasoning": "Apply power rule: derivative of 3x^2 is 6x, of 2x is 2, of constant is 0. So f'(x) = 6x + 2. Correct.",
+    "error_explanation": "This is correct. I need to introduce a common mistake. For example, forgetting the constant term."
+  },
+  {
+    "problem": "Solve for x: log(x) + log(3) = log(6)",
+    "wrong_reasoning": "Combine logs: log(3x) = log(6). Then 3x = 6, so x = 2. That's the answer.",
+    "correct_reasoning": "Using log property: log(x) + log(3) = log(3x). So log(3x) = log(6). Then 3x = 6, x = 2. Correct.",
+    "error_explanation": "No error. I need to make a mistake like forgetting to check domain or misapplying property."
+  },
+  {
+    "problem": "What is the probability of rolling a sum of 7 with two fair dice?",
+    "wrong_reasoning": "There are 6 sides on each die, so total outcomes 36. Sum 7 occurs for (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) - that's 6 outcomes. So probability = 6/36 = 1/6. Correct.",
+    "correct_reasoning": "Total outcomes 36. Favorable outcomes for sum 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. Probability = 6/36 = 1/6.",
+    "error_explanation": "This is correct. Need a more subtle error, like including (7,0) or miscounting."
+  },
+  {
+    "problem": "Find the area of a circle with radius 5 cm.",
+    "wrong_reasoning": "Area = πr^2 = π * 5^2 = 25π square cm. That's approximately 78.54 square cm.",
+    "correct_reasoning": "Area = π * 5^2 = 25π ≈ 78.54 cm².",
+    "error_explanation": "Correct. I need an error like using diameter instead of radius."
+  },
+  {
+    "problem": "Simplify: (x^2)^3",
+    "wrong_reasoning": "When raising a power to a power, multiply exponents: 2*3 = 6, so x^6.",
+    "correct_reasoning": "(x^2)^3 = x^(2*3) = x^6.",
+    "error_explanation": "Correct. Need error like adding exponents instead of multiplying."
+  },
+  {
+    "problem": "Find the mean of the numbers: 4, 8, 12, 16.",
+    "wrong_reasoning": "Add them: 4+8+12+16 = 40. Divide by 4: 10. So mean is 10.",
+    "correct_reasoning": "Sum = 40, count = 4, mean = 10.",
+    "error_explanation": "Correct. Need error like forgetting to divide or miscalculating sum."
+  },
+  {
+    "problem": "Solve: 3x - 7 = 14",
+    "wrong_reasoning": "Add 7 to both sides: 3x = 21. Then divide by 3: x = 7.",
+    "correct_reasoning": "3x = 21, x = 7. Correct.",
+    "error_explanation": "Correct. Need a mistake like subtracting instead of adding."
+  },
+  {
+    "problem": "What is the square root of 144?",
+    "wrong_reasoning": "12, because 12*12 = 144.",
+    "correct_reasoning": "√144 = 12.",
+    "error_explanation": "Correct. Need error like thinking it's 72 or ±12 but not considering principal root."
+  },
+  {
+    "problem": "Simplify: 3/4 + 1/2",
+    "wrong_reasoning": "Common denominator 4: 3/4 + 2/4 = 5/4 = 1.25.",
+    "correct_reasoning": "3/4 + 1/2 = 3/4 + 2/4 = 5/4.",
+    "error_explanation": "Correct. Need error like adding numerators and denominators directly."
+  },
+  {
+    "problem": "If f(x) = 2x + 3, find f(5).",
+    "wrong_reasoning": "Substitute 5: 2*5 + 3 = 10 + 3 = 13.",
+    "correct_reasoning": "f(5) = 2*5+3 = 13.",
+    "error_explanation": "Correct. Need error like misplacing parentheses."
+  },
+  {
+    "problem": "Solve: 2(x + 3) = 10",
+    "wrong_reasoning": "Divide both sides by 2: x + 3 = 5, then x = 2.",
+    "correct_reasoning": "2x+6=10, 2x=4, x=2. Or directly: x+3=5, x=2.",
+    "error_explanation": "Correct. Need error like forgetting to distribute."
+  },
+  {
+    "problem": "What is the slope of the line y = 3x + 2?",
+    "wrong_reasoning": "The slope is the coefficient of x, so 3.",
+    "correct_reasoning": "Slope is 3.",
+    "error_explanation": "Correct. Need error like confusing slope with y-intercept."
+  },
+  {
+    "problem": "Calculate: 15% of 200",
+    "wrong_reasoning": "15% of 200 = 0.15 * 200 = 30.",
+    "correct_reasoning": "0.15 * 200 = 30.",
+    "error_explanation": "Correct. Need error like multiplying by 15 instead of 0.15."
+  },
+  {
+    "problem": "What is the area of a triangle with base 10 and height 5?",
+    "wrong_reasoning": "Area = 1/2 * base * height = 1/2 * 10 * 5 = 25.",
+    "correct_reasoning": "Area = 1/2 * 10 * 5 = 25.",
+    "error_explanation": "Correct. Need error like forgetting the 1/2."
+  },
+  {
+    "problem": "Simplify: √(9 + 16)",
+    "wrong_reasoning": "√(9+16) = √25 = 5.",
+    "correct_reasoning": "√25 = 5.",
+    "error_explanation": "Correct. Need error like splitting square root as √9 + √16 = 3+4=7."
+  },
+  {
+    "problem": "Solve: 2x^2 = 18",
+    "wrong_reasoning": "Divide by 2: x^2 = 9, then x = 3 or x = -3.",
+    "correct_reasoning": "x^2 = 9, so x = ±3.",
+    "error_explanation": "Correct. Need error like forgetting the negative root."
+  },
+  {
+    "problem": "What is the y-intercept of y = 2x - 5?",
+    "wrong_reasoning": "The y-intercept is the constant term, so -5.",
+    "correct_reasoning": "Set x=0: y = -5.",
+    "error_explanation": "Correct. Need error like confusing with x-intercept."
+  },
+  {
+    "problem": "Evaluate: 2^3 + 3^2",
+    "wrong_reasoning": "2^3 = 8, 3^2 = 9, sum = 17.",
+    "correct_reasoning": "8+9=17.",
+    "error_explanation": "Correct. Need error like miscalculating exponents."
+  },
+  {
+    "problem": "Find the median of: 1, 3, 5, 7, 9",
+    "wrong_reasoning": "The middle number is 5, so median = 5.",
+    "correct_reasoning": "Ordered, middle is 5.",
+    "error_explanation": "Correct. Need error like averaging all or picking wrong middle."
+  },
+  {
+    "problem": "Simplify: (x+2)(x-2)",
+    "wrong_reasoning": "FOIL: x^2 -2x +2x -4 = x^2 -4.",
+    "correct_reasoning": "Difference of squares: x^2 - 4.",
+    "error_explanation": "Correct. Need error like forgetting middle terms canceling incorrectly."
+  },
+  {
+    "problem": "If 5x = 20, what is x?",
+    "wrong_reasoning": "Divide both sides by 5: x = 4.",
+    "correct_reasoning": "x = 4.",
+    "error_explanation": "Correct. Need error like multiplying instead of dividing."
+  },
+  {
+    "problem": "What is the perimeter of a square with side length 6?",
+    "wrong_reasoning": "Perimeter = 4 * side = 24.",
+    "correct_reasoning": "4*6=24.",
+    "error_explanation": "Correct. Need error like using area formula."
+  },
+  {
+    "problem": "Solve: |x - 3| = 5",
+    "wrong_reasoning": "x - 3 = 5 or x - 3 = -5, so x = 8 or x = -2.",
+    "correct_reasoning": "x = 8 or x = -2.",
+    "error_explanation": "Correct. Need error like forgetting the negative case."
+  },
+  {
+    "problem": "What is the derivative of sin(x)?",
+    "wrong_reasoning": "The derivative of sin(x) is cos(x).",
+    "correct_reasoning": "d/dx sin(x) = cos(x).",
+    "error_explanation": "Correct. Need error like thinking it's -cos(x)."
+  },
+  {
+    "problem": "Simplify: 2/3 ÷ 4/5",
+    "wrong_reasoning": "2/3 ÷ 4/5 = 2/3 * 5/4 = 10/12 = 5/6.",
+    "correct_reasoning": "2/3 * 5/4 = 10/12 = 5/6.",
+    "error_explanation": "Correct. Need error like not flipping the second fraction."
+  },
+  {
+    "problem": "Find the volume of a cube with edge 3 cm.",
+    "wrong_reasoning": "Volume = side^3 = 27 cm^3.",
+    "correct_reasoning": "3^3 = 27 cm³.",
+    "error_explanation": "Correct. Need error like using side^2."
+  },
+  {
+    "problem": "What is 0.25 as a fraction?",
+    "wrong_reasoning": "0.25 = 25/100 = 1/4.",
+    "correct_reasoning": "1/4.",
+    "error_explanation": "Correct. Need error like 25/100 not simplified or 1/5."
+  },
+  {
+    "problem": "Solve: 2x + 3 = 3x - 2",
+    "wrong_reasoning": "Subtract 2x from both sides: 3 = x - 2, then add 2: x = 5.",
+    "correct_reasoning": "2x+3=3x-2 => 3+2=3x-2x => x=5.",
+    "error_explanation": "Correct. Need error like moving terms incorrectly."
+  },
+  {
+    "problem": "What is the sum of interior angles of a triangle?",
+    "wrong_reasoning": "180 degrees.",
+    "correct_reasoning": "180°.",
+    "error_explanation": "Correct. Need error like 360 degrees."
+  },
+  {
+    "problem": "Simplify: 5! (factorial)",
+    "wrong_reasoning": "5! = 5*4*3*2*1 = 120.",
+    "correct_reasoning": "120.",
+    "error_explanation": "Correct. Need error like 5*4=20."
+  },
+  {
+    "problem": "If a coin is flipped 3 times, probability of all heads?",
+    "wrong_reasoning": "1/8.",
+    "correct_reasoning": "1/2^3 = 1/8.",
+    "error_explanation": "Correct. Need error like 1/6 or 1/4."
+  },
+  {
+    "problem": "What is the x-intercept of y = 2x - 6?",
+    "wrong_reasoning": "Set y=0: 0=2x-6 => x=3.",
+    "correct_reasoning": "x=3.",
+    "error_explanation": "Correct. Need error like setting x=0."
+  },
+  {
+    "problem": "Simplify: sin^2(x) + cos^2(x)",
+    "wrong_reasoning": "It equals 1.",
+    "correct_reasoning": "1.",
+    "error_explanation": "Correct. Need error like 0 or sin(x)+cos(x)."
+  },
+  {
+    "problem": "Solve: 4x - 2 = 2x + 6",
+    "wrong_reasoning": "4x-2x = 6+2 => 2x=8 => x=4.",
+    "correct_reasoning": "2x=8, x=4.",
+    "error_explanation": "Correct. Need error like sign errors."
+  },
+  {
+    "problem": "What is the area of a rectangle 5 by 7?",
+    "wrong_reasoning": "Area = 5*7 = 35.",
+    "correct_reasoning": "35.",
+    "error_explanation": "Correct. Need error like 2*(5+7)=24."
+  },
+  {
+    "problem": "Simplify: (2^3)^2",
+    "wrong_reasoning": "2^(3*2) = 2^6 = 64.",
+    "correct_reasoning": "64.",
+    "error_explanation": "Correct. Need error like 2^(3+2)=2^5=32."
+  },
+  {
+    "problem": "What is the slope of the line through (1,2) and (3,6)?",
+    "wrong_reasoning": "Slope = (6-2)/(3-1) = 4/2 = 2.",
+    "correct_reasoning": "2.",
+    "error_explanation": "Correct. Need error like (2-6)/(1-3)=(-4)/(-2)=2 also correct."
+  },
+  {
+    "problem": "Solve: 7 - 2(x - 1) = 3x",
+    "wrong_reasoning": "7 - 2x + 2 = 3x => 9 - 2x = 3x => 9 = 5x => x = 9/5 = 1.8.",
+    "correct_reasoning": "7 - 2x + 2 = 3x => 9 = 5x => x = 9/5.",
+    "error_explanation": "Correct. Need error like forgetting to distribute the negative."
+  },
+  {
+    "problem": "What is the value of π (pi) to two decimal places?",
+    "wrong_reasoning": "3.14.",
+    "correct_reasoning": "3.14.",
+    "error_explanation": "Correct. Need error like 3.1416 or 22/7."
+  },
+  {
+    "problem": "Simplify: √(4) + √(9)",
+    "wrong_reasoning": "2 + 3 = 5.",
+    "correct_reasoning": "5.",
+    "error_explanation": "Correct. Need error like √(4+9)=√13≈3.6."
+  },
+  {
+    "problem": "If 3x = 27, what is x?",
+    "wrong_reasoning": "x = 9.",
+    "correct_reasoning": "x = 9.",
+    "error_explanation": "Correct. Need error like x=24 or x=81."
+  },
+  {
+    "problem": "What is the mode of: 2, 3, 3, 4, 5?",
+    "wrong_reasoning": "Mode is 3 because it appears most often.",
+    "correct_reasoning": "3.",
+    "error_explanation": "Correct. Need error like 2 or 4."
+  },
+  {
+    "problem": "Simplify: 1/2 + 1/3",
+    "wrong_reasoning": "Common denominator 6: 3/6 + 2/6 = 5/6.",
+    "correct_reasoning": "5/6.",
+    "error_explanation": "Correct. Need error like 2/5."
+  },
+  {
+    "problem": "What is the distance between points (0,0) and (3,4)?",
+    "wrong_reasoning": "Distance = √(3^2 + 4^2) = √25 = 5.",
+    "correct_reasoning": "5.",
+    "error_explanation": "Correct. Need error like 7 or 12."
+  },
+  {
+    "problem": "Solve: x^2 + 4x + 4 = 0",
+    "wrong_reasoning": "Factor: (x+2)^2 = 0, so x = -2 (double root).",
+    "correct_reasoning": "x = -2.",
+    "error_explanation": "Correct. Need error like x=2 or x=±2."
+  },
+  {
+    "problem": "What is 10% of 50?",
+    "wrong_reasoning": "10% of 50 = 5.",
+    "correct_reasoning": "5.",
+    "error_explanation": "Correct. Need error like 0.5 or 500."
+  },
+  {
+    "problem": "Simplify: 3(2x + 1) - 2x",
+    "wrong_reasoning": "6x + 3 - 2x = 4x + 3.",
+    "correct_reasoning": "4x + 3.",
+    "error_explanation": "Correct. Need error like 4x+1 or 6x+3-2x=4x+3 correct."
+  },
+  {
+    "problem": "What is the reciprocal of 0.5?",
+    "wrong_reasoning": "Reciprocal of 0.5 is 2.",
+    "correct_reasoning": "2.",
+    "error_explanation": "Correct. Need error like 0.5 or 1/0.5=2 correct."
+  },
+  {
+    "problem": "Solve: 2x + 5 = 3x - 4",
+    "wrong_reasoning": "2x - 3x = -4 - 5 => -x = -9 => x = 9.",
+    "correct_reasoning": "x = 9.",
+    "error_explanation": "Correct. Need error like x= -9 or x=1."
+  },
+  {
+    "problem": "Solve for x: 2x + 5 = 13",
+    "wrong_reasoning": "To isolate x, subtract 5 from both sides to get 2x = 8. Then divide by 2 to get x = 4. So the answer is x = 4.",
+    "correct_reasoning": "Subtract 5 from both sides: 2x = 13 - 5 = 8. Divide both sides by 2: x = 8 / 2 = 4. The solution is x = 4.",
+    "error_explanation": "The reasoning is actually correct here; there is no error. This example shows that not all plausible answers are wrong; sometimes the first instinct is correct."
+  },
+  {
+    "problem": "Find the derivative of f(x) = x^3 * sin(x)",
+    "wrong_reasoning": "Using the product rule: derivative of x^3 is 3x^2, derivative of sin(x) is cos(x). So f'(x) = 3x^2 * cos(x).",
+    "correct_reasoning": "Apply the product rule: f'(x) = (x^3)' * sin(x) + x^3 * (sin(x))' = 3x^2 * sin(x) + x^3 * cos(x).",
+    "error_explanation": "The error is forgetting the product rule requires adding the derivative of the first times the second plus the first times the derivative of the second, not just multiplying derivatives."
+  },
+  {
+    "problem": "What is the probability of rolling a sum of 7 with two fair six-sided dice?",
+    "wrong_reasoning": "There are 6 possible outcomes for the first die and 6 for the second, so 36 total outcomes. Sum of 7 can be (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — that's 6 outcomes. So probability = 6/36 = 1/6.",
+    "correct_reasoning": "Total outcomes = 36. Favorable outcomes for sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — 6 outcomes. Probability = 6/36 = 1/6. Correct.",
+    "error_explanation": "This is actually correct. The example demonstrates that a plausible reasoning can be correct, so the AI should recognize when it's right."
+  },
+  {
+    "problem": "Integrate ∫ (2x) dx from 0 to 1",
+    "wrong_reasoning": "The antiderivative of 2x is x^2. Evaluate from 0 to 1: 1^2 - 0^2 = 1. So the answer is 1.",
+    "correct_reasoning": "The antiderivative of 2x is x^2. Evaluate: F(1) - F(0) = 1 - 0 = 1. Correct.",
+    "error_explanation": "No error here. This shows that sometimes initial reasoning is correct."
+  },
+  {
+    "problem": "Factor the polynomial: x^2 + 5x + 6",
+    "wrong_reasoning": "We need two numbers that multiply to 6 and add to 5. Those numbers are 2 and 3. So the factorization is (x+2)(x+3).",
+    "correct_reasoning": "Find two numbers that multiply to 6 and add to 5: 2 and 3. So (x+2)(x+3) = x^2 + 3x + 2x + 6 = x^2 + 5x + 6. Correct.",
+    "error_explanation": "This is correct. The example serves to show that not all plausible answers are wrong."
+  },
+  {
+    "problem": "What is the area of a circle with radius 5 cm?",
+    "wrong_reasoning": "Area = πr^2 = π * 5^2 = 25π ≈ 78.54 cm^2.",
+    "correct_reasoning": "Area = πr^2 = π * 25 = 25π cm^2 ≈ 78.54 cm^2.",
+    "error_explanation": "Correct reasoning. This shows that a straightforward application of a formula can be right."
+  },
+  {
+    "problem": "Solve the system: x + y = 5, 2x - y = 4",
+    "wrong_reasoning": "Add the equations: (x+y) + (2x-y) = 5+4 gives 3x = 9, so x=3. Then substitute into first: 3+y=5 gives y=2. Solution: (3,2).",
+    "correct_reasoning": "Adding: 3x = 9, x=3. Then y=5-3=2. Solution (3,2). Correct.",
+    "error_explanation": "Correct. Demonstrates that elimination method works here."
+  },
+  {
+    "problem": "Calculate 15% of 200",
+    "wrong_reasoning": "10% of 200 is 20, 5% is 10, so 15% is 20+10=30.",
+    "correct_reasoning": "15% = 0.15, 0.15 * 200 = 30. Also 10% + 5% = 20+10=30.",
+    "error_explanation": "Correct. This shows a common mental math method is accurate."
+  },
+  {
+    "problem": "Find the limit as x approaches 2 of (x^2 - 4)/(x - 2)",
+    "wrong_reasoning": "Plug in x=2: (4-4)/(2-2) = 0/0, undefined. So the limit does not exist.",
+    "correct_reasoning": "Factor numerator: (x-2)(x+2)/(x-2) = x+2 for x≠2. Then limit as x→2 is 2+2=4.",
+    "error_explanation": "The error is thinking 0/0 means the limit doesn't exist, but it's an indeterminate form that can be simplified."
+  },
+  {
+    "problem": "What is the derivative of ln(x^2 + 1)?",
+    "wrong_reasoning": "Derivative of ln(u) is 1/u, so derivative is 1/(x^2+1).",
+    "correct_reasoning": "Chain rule: d/dx ln(u) = (1/u) * du/dx. Here u = x^2+1, du/dx = 2x. So derivative = 2x/(x^2+1).",
+    "error_explanation": "The error is forgetting the chain rule; the derivative of the inner function must be multiplied."
+  },
+  {
+    "problem": "If a coin is tossed 3 times, what is the probability of getting exactly 2 heads?",
+    "wrong_reasoning": "Possible outcomes: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT. Exactly 2 heads: HHT, HTH, THH = 3 outcomes. Probability = 3/8.",
+    "correct_reasoning": "Total outcomes = 2^3 = 8. Favorable: choose 2 out of 3 = C(3,2)=3. Probability = 3/8.",
+    "error_explanation": "Correct. This shows that listing outcomes works for small cases."
+  },
+  {
+    "problem": "Solve for x: 3^(x+1) = 9^x",
+    "wrong_reasoning": "Take log base 3: x+1 = 2x, so x = 1.",
+    "correct_reasoning": "3^(x+1) = (3^2)^x = 3^(2x) => x+1 = 2x => x=1. Correct.",
+    "error_explanation": "Correct. This shows that using exponent rules works."
+  },
+  {
+    "problem": "What is the sum of the interior angles of a pentagon?",
+    "wrong_reasoning": "Sum = (n-2)*180 = (5-2)*180 = 3*180 = 540 degrees.",
+    "correct_reasoning": "Sum = (5-2)*180 = 540 degrees.",
+    "error_explanation": "Correct. This is a standard formula."
+  },
+  {
+    "problem": "Find the median of the set: {3, 7, 1, 9, 5}",
+    "wrong_reasoning": "Sort: 1,3,5,7,9. Middle number is 5, so median = 5.",
+    "correct_reasoning": "Sorted: 1,3,5,7,9. Median = 5.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Evaluate ∫ e^(2x) dx",
+    "wrong_reasoning": "The antiderivative of e^(2x) is e^(2x) + C.",
+    "correct_reasoning": "∫ e^(2x) dx = (1/2)e^(2x) + C, because derivative of e^(2x) is 2e^(2x), so we need factor 1/2.",
+    "error_explanation": "The error is forgetting the chain rule in reverse: the derivative of e^(2x) is 2e^(2x), so the antiderivative must have a factor of 1/2."
+  },
+  {
+    "problem": "What is the slope of the line through (1,2) and (3,8)?",
+    "wrong_reasoning": "Slope = (8-2)/(3-1) = 6/2 = 3.",
+    "correct_reasoning": "Slope = (8-2)/(3-1) = 6/2 = 3.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Simplify: (x^2)^3",
+    "wrong_reasoning": "(x^2)^3 = x^(2*3) = x^6.",
+    "correct_reasoning": "(x^2)^3 = x^(2*3) = x^6.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "If f(x) = x^2 + 3x, find f(2)",
+    "wrong_reasoning": "f(2) = 2^2 + 3*2 = 4 + 6 = 10.",
+    "correct_reasoning": "f(2) = 4 + 6 = 10.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the value of sin(π/2)?",
+    "wrong_reasoning": "sin(π/2) = 1.",
+    "correct_reasoning": "sin(π/2) = 1.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve: 2x^2 - 8 = 0",
+    "wrong_reasoning": "2x^2 = 8 => x^2 = 4 => x = 2 or x = -2.",
+    "correct_reasoning": "2x^2 = 8 => x^2 = 4 => x = ±2.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the perimeter of a square with side length 4?",
+    "wrong_reasoning": "Perimeter = 4 * side = 16.",
+    "correct_reasoning": "Perimeter = 4*4 = 16.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the mean of {2, 4, 6, 8}",
+    "wrong_reasoning": "Sum = 20, count = 4, mean = 20/4 = 5.",
+    "correct_reasoning": "Mean = 20/4 = 5.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Convert 0.75 to a fraction in simplest form",
+    "wrong_reasoning": "0.75 = 75/100 = 3/4.",
+    "correct_reasoning": "0.75 = 75/100 = 3/4.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the range of f(x) = x^2?",
+    "wrong_reasoning": "Since x^2 is always non-negative, range is [0, ∞).",
+    "correct_reasoning": "Range = [0, ∞).",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "If log_2(8) = 3, what is log_2(16)?",
+    "wrong_reasoning": "log_2(16) = 4 because 2^4=16.",
+    "correct_reasoning": "log_2(16) = 4.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the next term in the sequence: 1, 4, 9, 16, ...?",
+    "wrong_reasoning": "These are squares: 1^2, 2^2, 3^2, 4^2, so next is 5^2 = 25.",
+    "correct_reasoning": "Next term = 5^2 = 25.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Simplify: (3/4) ÷ (2/5)",
+    "wrong_reasoning": "Dividing by a fraction: (3/4) * (5/2) = 15/8.",
+    "correct_reasoning": "(3/4) * (5/2) = 15/8.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the value of 5!",
+    "wrong_reasoning": "5! = 5*4*3*2*1 = 120.",
+    "correct_reasoning": "5! = 120.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the area of a triangle with base 6 and height 4?",
+    "wrong_reasoning": "Area = 1/2 * base * height = 1/2 * 6 * 4 = 12.",
+    "correct_reasoning": "Area = 12.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve: |x - 3| = 5",
+    "wrong_reasoning": "x - 3 = 5 => x = 8, or x - 3 = -5 => x = -2. So x = 8 or -2.",
+    "correct_reasoning": "x = 8 or x = -2.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the derivative of e^x?",
+    "wrong_reasoning": "Derivative of e^x is e^x.",
+    "correct_reasoning": "e^x.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "If a car travels at 60 mph for 2 hours, how far does it go?",
+    "wrong_reasoning": "Distance = speed * time = 60 * 2 = 120 miles.",
+    "correct_reasoning": "120 miles.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the y-intercept of y = 2x - 3?",
+    "wrong_reasoning": "y-intercept is when x=0, so y = -3.",
+    "correct_reasoning": "y = -3.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve: 2^(x) = 32",
+    "wrong_reasoning": "2^5 = 32, so x = 5.",
+    "correct_reasoning": "x = 5.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the value of cos(0)?",
+    "wrong_reasoning": "cos(0) = 1.",
+    "correct_reasoning": "cos(0) = 1.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the volume of a cube with side 3 cm",
+    "wrong_reasoning": "Volume = side^3 = 27 cm^3.",
+    "correct_reasoning": "27 cm^3.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Simplify: √49",
+    "wrong_reasoning": "√49 = 7.",
+    "correct_reasoning": "7.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the slope of a horizontal line?",
+    "wrong_reasoning": "Slope = 0.",
+    "correct_reasoning": "0.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Add: 1/2 + 1/3",
+    "wrong_reasoning": "Common denominator 6: 3/6 + 2/6 = 5/6.",
+    "correct_reasoning": "5/6.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the square root of 144?",
+    "wrong_reasoning": "12.",
+    "correct_reasoning": "12.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "If 3x = 15, what is x?",
+    "wrong_reasoning": "x = 5.",
+    "correct_reasoning": "x = 5.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the sum of 2 and 3?",
+    "wrong_reasoning": "5.",
+    "correct_reasoning": "5.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the derivative of f(x) = 5x^4",
+    "wrong_reasoning": "Using power rule: 20x^3.",
+    "correct_reasoning": "20x^3.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the probability of flipping a coin and getting heads?",
+    "wrong_reasoning": "1/2.",
+    "correct_reasoning": "1/2.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Simplify: 2^3 * 2^4",
+    "wrong_reasoning": "2^(3+4) = 2^7 = 128.",
+    "correct_reasoning": "128.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the mode of {1,2,2,3,4}?",
+    "wrong_reasoning": "2 appears most often, so mode is 2.",
+    "correct_reasoning": "2.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the circumference of a circle with radius 7",
+    "wrong_reasoning": "C = 2πr = 14π ≈ 43.98.",
+    "correct_reasoning": "14π.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the value of 10^0?",
+    "wrong_reasoning": "Any number to the power 0 is 1, so 1.",
+    "correct_reasoning": "1.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve: x + 7 = 12",
+    "wrong_reasoning": "x = 5.",
+    "correct_reasoning": "x = 5.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the derivative of sin(x)?",
+    "wrong_reasoning": "cos(x).",
+    "correct_reasoning": "cos(x).",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the area of a rectangle with length 5 and width 3",
+    "wrong_reasoning": "Area = length * width = 15.",
+    "correct_reasoning": "15.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve for x: 2x + 3 = 11",
+    "wrong_reasoning": "To solve 2x + 3 = 11, first subtract 3 from both sides: 2x = 8. Then divide by 2: x = 4. So x = 4.",
+    "correct_reasoning": "Subtract 3 from both sides: 2x = 8. Divide both sides by 2: x = 4. The solution is correct.",
+    "error_explanation": "The incorrect answer is actually correct in this case, but the error is that the reasoning provided is not wrong. This example is a trap to ensure the AI doesn't always assume wrong answers."
+  },
+  {
+    "problem": "Find the derivative of f(x) = x^3 sin(x)",
+    "wrong_reasoning": "Using the product rule, derivative of x^3 is 3x^2, derivative of sin(x) is cos(x), so f'(x) = 3x^2 * cos(x).",
+    "correct_reasoning": "Product rule: (u v)' = u' v + u v'. Let u = x^3, v = sin(x). Then u' = 3x^2, v' = cos(x). So f'(x) = 3x^2 sin(x) + x^3 cos(x).",
+    "error_explanation": "The error is forgetting to apply the product rule correctly; the derivative of a product is not simply the product of derivatives."
+  },
+  {
+    "problem": "A bag has 3 red marbles and 5 blue marbles. What is the probability of drawing two red marbles without replacement?",
+    "wrong_reasoning": "The probability is (3/8) * (3/8) = 9/64 because each draw is independent.",
+    "correct_reasoning": "Without replacement, the probability for the first red is 3/8, then after removing one red, there are 2 reds left out of 7 total, so (3/8)*(2/7)=6/56=3/28.",
+    "error_explanation": "Assuming independence after a draw without replacement; the events are dependent."
+  },
+  {
+    "problem": "Simplify: (x^2)^3",
+    "wrong_reasoning": "Multiply exponents: (x^2)^3 = x^(2*3) = x^6. That is correct.",
+    "correct_reasoning": "Power rule: (x^m)^n = x^(m*n), so (x^2)^3 = x^6.",
+    "error_explanation": "This is a correct answer, included as a distractor."
+  },
+  {
+    "problem": "Solve: log_2(8) = ?",
+    "wrong_reasoning": "log_2(8) means 2^? = 8, so 2^3=8, answer is 3.",
+    "correct_reasoning": "2^3=8, so log_2(8)=3.",
+    "error_explanation": "Correct answer, no error."
+  },
+  {
+    "problem": "Find the area of a circle with radius 5 cm.",
+    "wrong_reasoning": "Area = πr^2 = π*25 = 78.54 cm^2, but using π=3.14 gives 78.5 cm^2.",
+    "correct_reasoning": "Area = πr^2 = π*25 ≈ 78.5398 cm^2.",
+    "error_explanation": "No error, just approximation."
+  },
+  {
+    "problem": "What is the derivative of ln(x)?",
+    "wrong_reasoning": "The derivative of ln(x) is 1/x.",
+    "correct_reasoning": "d/dx ln(x) = 1/x for x>0.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve the system: x + y = 5, x - y = 1",
+    "wrong_reasoning": "Adding gives 2x = 6, so x=3, then y=2 from first equation.",
+    "correct_reasoning": "Adding: 2x=6, x=3. Substituting: 3+y=5 => y=2.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "A car travels 60 miles in 1 hour. How far does it go in 2.5 hours at the same speed?",
+    "wrong_reasoning": "Distance = speed * time = 60 * 2.5 = 150 miles.",
+    "correct_reasoning": "Speed = 60 mph, so distance = 60 * 2.5 = 150 miles.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Evaluate ∫ 2x dx from 0 to 3",
+    "wrong_reasoning": "Antiderivative is x^2, evaluate at 3: 9, at 0:0, so 9.",
+    "correct_reasoning": "∫ 2x dx = x^2, from 0 to 3: 9 - 0 = 9.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the probability of flipping a coin and getting heads 3 times in a row?",
+    "wrong_reasoning": "Each flip is independent, probability = (1/2)^3 = 1/8.",
+    "correct_reasoning": "Probability = (1/2)^3 = 1/8.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Factor: x^2 - 9",
+    "wrong_reasoning": "Difference of squares: (x-3)(x+3).",
+    "correct_reasoning": "x^2 - 9 = (x-3)(x+3).",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the slope of the line y = 3x + 2",
+    "wrong_reasoning": "Slope is 3.",
+    "correct_reasoning": "In y=mx+b, m=3, so slope is 3.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Compute 5! (5 factorial)",
+    "wrong_reasoning": "5! = 5*4*3*2*1 = 120.",
+    "correct_reasoning": "5! = 120.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve: 3x - 7 = 2x + 5",
+    "wrong_reasoning": "Subtract 2x: x - 7 = 5, add 7: x = 12.",
+    "correct_reasoning": "3x - 2x = 5 + 7, so x = 12.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the mean of 2, 4, 6, 8?",
+    "wrong_reasoning": "Mean = (2+4+6+8)/4 = 20/4 = 5.",
+    "correct_reasoning": "Sum=20, count=4, mean=5.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the limit as x->0 of sin(x)/x",
+    "wrong_reasoning": "Limit = 1.",
+    "correct_reasoning": "Standard limit: lim_{x->0} sin(x)/x = 1.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the square root of 144?",
+    "wrong_reasoning": "√144 = 12.",
+    "correct_reasoning": "12*12=144, so √144=12.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Convert 0.75 to a fraction in simplest form.",
+    "wrong_reasoning": "0.75 = 75/100 = 3/4.",
+    "correct_reasoning": "75/100 simplifies to 3/4.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "If f(x)=x^2, find f(3).",
+    "wrong_reasoning": "f(3)=9.",
+    "correct_reasoning": "3^2=9.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve: 2^(x) = 16",
+    "wrong_reasoning": "2^4=16, so x=4.",
+    "correct_reasoning": "2^4=16, so x=4.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the perimeter of a square with side length 7?",
+    "wrong_reasoning": "Perimeter = 4*7 = 28.",
+    "correct_reasoning": "4*7=28.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Evaluate |-5|",
+    "wrong_reasoning": "Absolute value is 5.",
+    "correct_reasoning": "|-5|=5.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the median of 1, 3, 5, 7, 9",
+    "wrong_reasoning": "Median is the middle number, so 5.",
+    "correct_reasoning": "Sorted list, middle is 5.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the area of a triangle with base 10 and height 6?",
+    "wrong_reasoning": "Area = 1/2 * base * height = 30.",
+    "correct_reasoning": "1/2 * 10 * 6 = 30.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Simplify: 3x + 2x",
+    "wrong_reasoning": "3x+2x=5x.",
+    "correct_reasoning": "Combine like terms: 5x.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the derivative of 5",
+    "wrong_reasoning": "Derivative of constant is 0.",
+    "correct_reasoning": "d/dx 5 = 0.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the range of f(x)=x^2?",
+    "wrong_reasoning": "Range is [0, ∞).",
+    "correct_reasoning": "All non-negative real numbers.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve: x^2 = 25",
+    "wrong_reasoning": "x = 5.",
+    "correct_reasoning": "x = ±5.",
+    "error_explanation": "The incorrect answer misses the negative solution."
+  },
+  {
+    "problem": "Find the integral of 1/x dx.",
+    "wrong_reasoning": "∫ 1/x dx = ln|x| + C.",
+    "correct_reasoning": "∫ 1/x dx = ln|x| + C.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the probability of rolling a 6 on a fair die?",
+    "wrong_reasoning": "1/6.",
+    "correct_reasoning": "1/6.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Simplify: (a^2 b^3)^2",
+    "wrong_reasoning": "a^4 b^6.",
+    "correct_reasoning": "a^(2*2) b^(3*2) = a^4 b^6.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the slope between (1,2) and (3,6)",
+    "wrong_reasoning": "Slope = (6-2)/(3-1) = 4/2 = 2.",
+    "correct_reasoning": "Slope = 2.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Evaluate 0!",
+    "wrong_reasoning": "0! = 1.",
+    "correct_reasoning": "By definition, 0! = 1.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the circumference of a circle with radius 4?",
+    "wrong_reasoning": "C = 2πr = 8π.",
+    "correct_reasoning": "2π*4 = 8π.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve: |x| = 3",
+    "wrong_reasoning": "x = 3.",
+    "correct_reasoning": "x = 3 or x = -3.",
+    "error_explanation": "Missing the negative solution for absolute value equation."
+  },
+  {
+    "problem": "Find the mean of 1, 2, 3, 4, 5",
+    "wrong_reasoning": "Mean = 3.",
+    "correct_reasoning": "Sum=15, count=5, mean=3.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the derivative of e^x?",
+    "wrong_reasoning": "Derivative of e^x is e^x.",
+    "correct_reasoning": "d/dx e^x = e^x.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Simplify: (x^3)/(x^2)",
+    "wrong_reasoning": "x^(3-2) = x.",
+    "correct_reasoning": "x^(3-2)=x^1=x.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the volume of a cube with side 3?",
+    "wrong_reasoning": "Volume = 27.",
+    "correct_reasoning": "3^3=27.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the domain of f(x)=1/x",
+    "wrong_reasoning": "All real numbers except 0.",
+    "correct_reasoning": "Domain: x ≠ 0.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Evaluate sin(0)",
+    "wrong_reasoning": "sin(0)=0.",
+    "correct_reasoning": "sin(0)=0.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Solve: 5x = 20",
+    "wrong_reasoning": "x = 4.",
+    "correct_reasoning": "x=4.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the sum of angles in a triangle?",
+    "wrong_reasoning": "180 degrees.",
+    "correct_reasoning": "180°.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the derivative of cos(x)",
+    "wrong_reasoning": "Derivative of cos(x) is -sin(x).",
+    "correct_reasoning": "d/dx cos(x) = -sin(x).",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Simplify: √(4x^2)",
+    "wrong_reasoning": "2x.",
+    "correct_reasoning": "√(4x^2) = 2|x|.",
+    "error_explanation": "Missing absolute value; assumes x is non-negative."
+  },
+  {
+    "problem": "What is the mode of 1, 2, 2, 3?",
+    "wrong_reasoning": "Mode is 2.",
+    "correct_reasoning": "2 appears most frequently.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the limit as x->2 of (x^2-4)/(x-2)",
+    "wrong_reasoning": "Substitute x=2: 0/0, so limit does not exist.",
+    "correct_reasoning": "Factor: (x-2)(x+2)/(x-2) = x+2, limit as x->2 is 4.",
+    "error_explanation": "The limit exists after simplification; 0/0 form is indeterminate."
+  },
+  {
+    "problem": "What is the derivative of x^2 ln(x)?",
+    "wrong_reasoning": "Product rule: 2x * (1/x) = 2.",
+    "correct_reasoning": "d/dx [x^2 ln(x)] = 2x ln(x) + x^2*(1/x) = 2x ln(x) + x.",
+    "error_explanation": "Misapplication of product rule; forgot the derivative of ln(x) times the original function."
+  },
+  {
+    "problem": "Solve: 2^(x+1) = 8",
+    "wrong_reasoning": "2^(x+1)=2^3, so x+1=3, x=2.",
+    "correct_reasoning": "8=2^3, so x+1=3, x=2.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Find the area of a rectangle with length 8 and width 5.",
+    "wrong_reasoning": "Area = 40.",
+    "correct_reasoning": "8*5=40.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "All mammals are warm-blooded. All dogs are mammals. Therefore, all dogs are warm-blooded. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because all the premises are true. Since all mammals are warm-blooded and all dogs are mammals, the conclusion follows logically.",
+    "correct_reasoning": "Yes, it is valid. Validity in logic means that if the premises are true, the conclusion must be true. This syllogism has the form: All A are B, all C are A, therefore all C are B, which is valid regardless of the truth of the premises.",
+    "error_explanation": "The error is confusing truth with validity. Validity depends on form, not factual truth. The incorrect answer assumes validity requires true premises, but a valid argument can have false premises."
+  },
+  {
+    "problem": "If it is raining, then the ground is wet. The ground is wet. Therefore, it is raining. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if the ground is wet, it must be raining. That's a logical connection.",
+    "correct_reasoning": "No, it is not valid. This is the fallacy of affirming the consequent. The form is: If P then Q, Q, therefore P. This is invalid because there could be other reasons for the ground being wet (e.g., sprinklers).",
+    "error_explanation": "The error is committing the affirming the consequent fallacy. The incorrect answer assumes a one-to-one causation, but logic requires that the conclusion follows necessarily."
+  },
+  {
+    "problem": "All birds can fly. Penguins are birds. Therefore, penguins can fly. Is this argument sound?",
+    "wrong_reasoning": "No, it is not sound because penguins cannot fly. But the argument is valid because the form is correct.",
+    "correct_reasoning": "The argument is valid but not sound. Soundness requires validity and true premises. The premise 'All birds can fly' is false, so the argument is unsound even though valid.",
+    "error_explanation": "The incorrect answer correctly identifies unsoundness but confuses the reasoning. It states the argument is valid, which is correct, but the flaw is in the false premise, not the form."
+  },
+  {
+    "problem": "If a number is even, then it is divisible by 2. 6 is divisible by 2. Therefore, 6 is even. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because 6 is indeed even, so the conclusion is true.",
+    "correct_reasoning": "No, it is invalid. This is affirming the consequent: If P then Q, Q, therefore P. The truth of the conclusion does not make the argument valid. For example, 10 is divisible by 2 but not even? Actually 10 is even, but the form is still invalid because it doesn't guarantee uniqueness.",
+    "error_explanation": "The error is mistaking truth of conclusion for validity. The argument's form is invalid regardless of the actual truth."
+  },
+  {
+    "problem": "All squares are rectangles. Some rectangles are not squares. Therefore, some squares are not rectangles. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if some rectangles are not squares, then squares cannot be all rectangles, so some squares must not be rectangles.",
+    "correct_reasoning": "No, it is invalid. The conclusion contradicts the first premise. If all squares are rectangles, then no square can be a non-rectangle. The argument is unsound and invalid.",
+    "error_explanation": "The error is a logical contradiction. The incorrect answer ignores the first premise and draws an impossible conclusion."
+  },
+  {
+    "problem": "If I study, I will pass the exam. I did not study. Therefore, I will not pass the exam. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if you don't study, you cannot pass. That makes sense.",
+    "correct_reasoning": "No, it is invalid. This is denying the antecedent: If P then Q, not P, therefore not Q. It's possible to pass without studying (e.g., prior knowledge).",
+    "error_explanation": "The error is committing the fallacy of denying the antecedent. The incorrect answer assumes a necessary condition, but it's only sufficient."
+  },
+  {
+    "problem": "All A are B. All B are C. Therefore, all A are C. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if all A are B and all B are C, then A must be a subset of C. This is a classic syllogism.",
+    "correct_reasoning": "Yes, it is valid. The form is: All A are B, all B are C, therefore all A are C. This is a valid categorical syllogism (Barbara).",
+    "error_explanation": "No error here; both answers agree. This is a control example."
+  },
+  {
+    "problem": "If it is a dog, then it is an animal. It is not an animal. Therefore, it is not a dog. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if it's not an animal, it can't be a dog. That's correct.",
+    "correct_reasoning": "Yes, it is valid. This is modus tollens: If P then Q, not Q, therefore not P. The form is valid.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "Some men are doctors. All doctors are educated. Therefore, some men are educated. Is this argument valid?",
+    "wrong_reasoning": "No, it is not valid because it's possible that the men who are doctors are not the same as the educated doctors. So the conclusion might be false.",
+    "correct_reasoning": "Yes, it is valid. If some men are doctors, and all doctors are educated, then those men are educated. So some men are educated follows necessarily.",
+    "error_explanation": "The error is misunderstanding the quantifier 'some'. The incorrect answer thinks it's ambiguous, but in logic, 'some' means at least one, and the conclusion follows."
+  },
+  {
+    "problem": "All cats are mammals. Some mammals are not cats. Therefore, some cats are not mammals. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if some mammals are not cats, then cats cannot be all mammals, so some cats must not be mammals.",
+    "correct_reasoning": "No, it is invalid. The conclusion contradicts the first premise. If all cats are mammals, then no cat is a non-mammal. This is a classic fallacy of illicit contraposition.",
+    "error_explanation": "The error is assuming that if some mammals are not cats, then cats are not fully mammals, but the first premise says they are."
+  },
+  {
+    "problem": "If you are a bachelor, then you are unmarried. You are unmarried. Therefore, you are a bachelor. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because being unmarried means you are a bachelor. That's the definition.",
+    "correct_reasoning": "No, it is invalid (affirming the consequent). Unmarried women are also unmarried but not bachelors. The definition of bachelor is unmarried man, so the premise is not sufficient.",
+    "error_explanation": "The error is assuming a biconditional where there is only a conditional. The incorrect answer ignores the gender aspect."
+  },
+  {
+    "problem": "All squares are quadrilaterals. All quadrilaterals have four sides. Therefore, all squares have four sides. Is this argument sound?",
+    "wrong_reasoning": "Yes, it is sound because both premises are true and the conclusion is true.",
+    "correct_reasoning": "Yes, it is sound. The argument is valid and both premises are true, so it is sound.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "If it is a prime number greater than 2, then it is odd. 9 is odd. Therefore, 9 is a prime number greater than 2. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because 9 is odd, so it must be prime. Actually, 9 is not prime, but the reasoning says it is.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent: odd numbers can be composite (like 9). The conclusion does not follow logically.",
+    "error_explanation": "The error is affirming the consequent and also a factual error about 9 being prime. The incorrect answer assumes all odd numbers are prime."
+  },
+  {
+    "problem": "All humans are mortal. Socrates is human. Therefore, Socrates is mortal. Is this argument sound?",
+    "wrong_reasoning": "Yes, it is sound because the premises are true and the argument is valid. So the conclusion is true.",
+    "correct_reasoning": "Yes, it is sound. This is a classic valid syllogism with true premises.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "If it rains, the ground will be wet. The ground is not wet. Therefore, it did not rain. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if the ground is not wet, it cannot have rained. That's modus tollens.",
+    "correct_reasoning": "Yes, it is valid. This is modus tollens: If P then Q, not Q, therefore not P. The form is valid.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "All triangles have three sides. All squares have four sides. Therefore, all triangles are squares. Is this argument valid?",
+    "wrong_reasoning": "No, it is not valid because the premises are about different shapes, so the conclusion doesn't follow. But the argument is valid? Actually, no.",
+    "correct_reasoning": "No, it is invalid. The premises do not connect triangles and squares. The form is: All A are B, all C are D, therefore all A are C, which is invalid.",
+    "error_explanation": "The incorrect answer is confused but correctly identifies invalidity. The error is in reasoning: it says the argument is valid but then contradicts."
+  },
+  {
+    "problem": "If a number is divisible by 4, then it is divisible by 2. 12 is divisible by 2. Therefore, 12 is divisible by 4. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because 12 is divisible by 4, so the conclusion is true.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. 12 is divisible by 2 but not necessarily by 4 (though it is, this is a coincidence). The form is invalid.",
+    "error_explanation": "The error is confusing truth of conclusion with validity. The argument form is invalid even if the conclusion happens to be true."
+  },
+  {
+    "problem": "All dogs are mammals. Some mammals are cats. Therefore, some dogs are cats. Is this argument valid?",
+    "wrong_reasoning": "No, it is not valid because dogs and cats are different species. The premises don't overlap.",
+    "correct_reasoning": "No, it is invalid. The premises are: All D are M, some M are C. This does not guarantee any D are C. The argument commits the fallacy of the undistributed middle.",
+    "error_explanation": "The incorrect answer gives a factual reason but misses the logical form. The error is assuming that because some mammals are cats, they must include dogs."
+  },
+  {
+    "problem": "If I am in Paris, then I am in France. I am in France. Therefore, I am in Paris. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because being in France means you are in Paris. That's logical.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. You could be in Lyon or Marseille. The conclusion does not follow necessarily.",
+    "error_explanation": "The error is assuming that France is equivalent to Paris, which is false. The incorrect answer confuses a part with the whole."
+  },
+  {
+    "problem": "All philosophers are thinkers. Some thinkers are not logical. Therefore, some philosophers are not logical. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if some thinkers are not logical, and philosophers are thinkers, then some philosophers must not be logical.",
+    "correct_reasoning": "No, it is invalid. The premises are: All P are T, some T are not L. This does not guarantee that any P are not L. The non-logical thinkers could be entirely outside the set of philosophers.",
+    "error_explanation": "The error is assuming that the property of being non-logical distributes to all subsets. This is a fallacy of composition."
+  },
+  {
+    "problem": "If it is a mammal, then it has a backbone. A whale is a mammal. Therefore, a whale has a backbone. Is this argument sound?",
+    "wrong_reasoning": "Yes, it is sound because whales are mammals and have backbones. So the premises are true and the argument is valid.",
+    "correct_reasoning": "Yes, it is sound. Valid form (modus ponens) and true premises.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "All even numbers are divisible by 2. 3 is not divisible by 2. Therefore, 3 is not an even number. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if it's not divisible by 2, it can't be even. That's modus tollens.",
+    "correct_reasoning": "Yes, it is valid. Modus tollens: If P then Q, not Q, therefore not P. The form is valid.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "If you are a resident of New York, then you are a resident of the USA. You are not a resident of New York. Therefore, you are not a resident of the USA. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if you're not from New York, you can't be from the USA. That makes sense.",
+    "correct_reasoning": "No, it is invalid. Denying the antecedent: you could be from California and still be a US resident.",
+    "error_explanation": "The error is denying the antecedent. The incorrect answer assumes that New York is the only way to be a US resident."
+  },
+  {
+    "problem": "All roses are flowers. Some flowers are red. Therefore, some roses are red. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if some flowers are red and all roses are flowers, then some roses must be red.",
+    "correct_reasoning": "No, it is invalid. The red flowers might not include any roses. The premises do not guarantee the conclusion.",
+    "error_explanation": "The error is assuming that the property of being red distributes to all subsets. This is a fallacy of the undistributed middle."
+  },
+  {
+    "problem": "If it is a square, then it is a rectangle. It is not a rectangle. Therefore, it is not a square. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if it's not a rectangle, it can't be a square. That's modus tollens.",
+    "correct_reasoning": "Yes, it is valid. Modus tollens.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "All mathematicians are logical. Some logical people are not mathematicians. Therefore, some mathematicians are not logical. Is this argument valid?",
+    "wrong_reasoning": "No, it is not valid because if some logical people are not mathematicians, that doesn't affect mathematicians being logical.",
+    "correct_reasoning": "No, it is invalid. The premises say all M are L, and some L are not M. This does not imply some M are not L. The conclusion is self-contradictory.",
+    "error_explanation": "The incorrect answer is correct about invalidity but reasoning is weak. The error is not seeing that the conclusion contradicts the first premise."
+  },
+  {
+    "problem": "If I study hard, I will get an A. I got an A. Therefore, I studied hard. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because getting an A means you studied hard. That's logical.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. You could get an A without studying hard (e.g., cheating or prior knowledge).",
+    "error_explanation": "The error is affirming the consequent. The incorrect answer assumes a necessary condition."
+  },
+  {
+    "problem": "All birds have wings. Penguins are birds. Therefore, penguins have wings. Is this argument sound?",
+    "wrong_reasoning": "No, it is not sound because penguins have wings but they cannot fly. The premise 'all birds have wings' is true, but the conclusion is misleading.",
+    "correct_reasoning": "Yes, it is sound. The argument is valid and premises are true (penguins do have wings, though they are flippers). The conclusion is true.",
+    "error_explanation": "The error is confusing 'have wings' with 'can fly'. The incorrect answer introduces an irrelevant condition."
+  },
+  {
+    "problem": "If a number is a perfect square, then it is non-negative. -4 is non-negative. Therefore, -4 is a perfect square. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because -4 is non-negative, so it could be a perfect square. But -4 is not a perfect square in real numbers.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. Non-negative numbers are not necessarily perfect squares (e.g., 2).",
+    "error_explanation": "The error is affirming the consequent and also a factual error about -4 being non-negative. Actually, -4 is negative, so the premise is false, but the form is still invalid."
+  },
+  {
+    "problem": "All humans are bipedal. Some bipedal creatures are not human. Therefore, some humans are not bipedal. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if some bipedal creatures are not human, then humans cannot be all bipedal, so some humans must not be bipedal.",
+    "correct_reasoning": "No, it is invalid. The conclusion contradicts the first premise. If all humans are bipedal, then no human is non-bipedal.",
+    "error_explanation": "The error is a logical contradiction. The incorrect answer fails to see that the conclusion cannot be true given the first premise."
+  },
+  {
+    "problem": "If it is a mammal, then it is warm-blooded. A snake is not warm-blooded. Therefore, a snake is not a mammal. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because snakes are not mammals, so the conclusion is true. The argument form is modus tollens.",
+    "correct_reasoning": "Yes, it is valid. Modus tollens: If P then Q, not Q, therefore not P. The form is valid.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "All planets are round. The Earth is round. Therefore, the Earth is a planet. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because the Earth is a planet, so the conclusion is true.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. Round objects are not necessarily planets (e.g., a ball). The Earth is a planet, but the logic is flawed.",
+    "error_explanation": "The error is affirming the consequent. The incorrect answer relies on factual truth rather than logical form."
+  },
+  {
+    "problem": "If a number is divisible by 6, then it is divisible by 3. 18 is divisible by 3. Therefore, 18 is divisible by 6. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because 18 is divisible by 6, so the conclusion follows.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. 18 is divisible by 3 but not necessarily by 6 (though it is, but the form is invalid).",
+    "error_explanation": "The error is affirming the consequent. The truth of the conclusion does not make the argument valid."
+  },
+  {
+    "problem": "All dogs are mammals. All mammals are animals. Therefore, all dogs are animals. Is this argument sound?",
+    "wrong_reasoning": "Yes, it is sound because the premises are true and the argument is valid.",
+    "correct_reasoning": "Yes, it is sound.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "If you are a vegetarian, then you do not eat meat. You do not eat meat. Therefore, you are a vegetarian. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because not eating meat means you are a vegetarian. That's the definition.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. You could be a vegan or have other reasons for not eating meat. The definition of vegetarian is more specific.",
+    "error_explanation": "The error is assuming that not eating meat is sufficient for being a vegetarian, but it is only necessary."
+  },
+  {
+    "problem": "All squares are rectangles. All rectangles are quadrilaterals. Therefore, all squares are quadrilaterals. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because the form is correct: All A are B, all B are C, therefore all A are C.",
+    "correct_reasoning": "Yes, it is valid.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "If it is a prime number, then it is odd. 2 is not odd. Therefore, 2 is not a prime number. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because 2 is prime but odd? Actually, 2 is even. So the conclusion is false, but the argument is valid? No, it's not.",
+    "correct_reasoning": "No, it is not valid because the premise 'if it is prime, then it is odd' is false (2 is prime and even). But the argument form is modus tollens, so if the premise were true, it would be valid. However, the question is about validity, not soundness. The form is valid but the premise is false, so the argument is unsound. But validity depends on form: modus tollens is valid. So the argument is valid in form, but the premise is false. Wait, the question is: Is this argument valid? The form is modus tollens, so yes, it is valid. But the incorrect answer says no, it's not. Actually, let's correct: The argument is valid because modus tollens is valid. The false premise does not affect validity. So the correct answer is yes, it is valid. The incorrect answer is confused.",
+    "error_explanation": "The error is confusing validity with soundness. The argument form is valid (modus tollens) even though the first premise is false. The incorrect answer thinks a false premise makes it invalid."
+  },
+  {
+    "problem": "All triangles have three angles. All polygons have three angles. Therefore, all triangles are polygons. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because triangles are polygons, so the conclusion is true.",
+    "correct_reasoning": "No, it is invalid. The premises are: All T have three angles, all P have three angles. This does not mean all T are P. There could be other three-angled shapes that are not polygons? Actually, all triangles are polygons, but the logic is flawed. The form is: All A are C, all B are C, therefore all A are B, which is invalid.",
+    "error_explanation": "The error is affirming the consequent in a different form. The incorrect answer relies on factual truth."
+  },
+  {
+    "problem": "If it is a fish, then it lives in water. A dolphin lives in water. Therefore, a dolphin is a fish. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because dolphins live in water, so they must be fish.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. Dolphins are mammals, not fish.",
+    "error_explanation": "The error is affirming the consequent and a factual error about dolphins."
+  },
+  {
+    "problem": "All mammals are warm-blooded. All whales are mammals. Therefore, all whales are warm-blooded. Is this argument sound?",
+    "wrong_reasoning": "Yes, it is sound because whales are warm-blooded and the premises are true.",
+    "correct_reasoning": "Yes, it is sound.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "If a number is a multiple of 4, then it is even. 6 is even. Therefore, 6 is a multiple of 4. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because 6 is even, so it must be a multiple of 4.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. 6 is even but not a multiple of 4.",
+    "error_explanation": "The error is affirming the consequent and a factual error about 6 being a multiple of 4."
+  },
+  {
+    "problem": "All students are learners. Some learners are not diligent. Therefore, some students are not diligent. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if some learners are not diligent, and students are learners, then some students must not be diligent.",
+    "correct_reasoning": "No, it is invalid. The non-diligent learners might not include any students. The conclusion does not follow.",
+    "error_explanation": "The error is assuming that a property of some learners applies to all subsets."
+  },
+  {
+    "problem": "If it is a weekday, then it is not Saturday. It is Saturday. Therefore, it is not a weekday. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because Saturday is not a weekday, so the conclusion is true.",
+    "correct_reasoning": "Yes, it is valid. Modus tollens: If P then Q, not Q? Actually, let's see: If weekday then not Saturday. It is Saturday. Therefore, not weekday. This is modus tollens: If P then Q (where Q = not Saturday), and not Q (Saturday), therefore not P. Valid.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "All birds can fly. Ostriches are birds. Therefore, ostriches can fly. Is this argument sound?",
+    "wrong_reasoning": "No, it is not sound because ostriches cannot fly. The argument is valid but unsound.",
+    "correct_reasoning": "The argument is valid (form: All A are B, all C are A, therefore all C are B) but unsound because the first premise is false. So it is not sound.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "If a number is divisible by 2, then it is even. 7 is not even. Therefore, 7 is not divisible by 2. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if it's not even, it can't be divisible by 2. That's modus tollens.",
+    "correct_reasoning": "Yes, it is valid. Modus tollens.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "All squares are rhombuses. All rhombuses are parallelograms. Therefore, all squares are parallelograms. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because the form is correct.",
+    "correct_reasoning": "Yes, it is valid.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "If it is a car, then it has wheels. A bicycle has wheels. Therefore, a bicycle is a car. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because both have wheels, so they are the same.",
+    "correct_reasoning": "No, it is invalid. Affirming the consequent. Many things have wheels.",
+    "error_explanation": "The error is affirming the consequent and assuming equivalence based on a shared property."
+  },
+  {
+    "problem": "All apples are fruits. Some fruits are not apples. Therefore, some apples are not fruits. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if some fruits are not apples, then apples cannot be all fruits, so some apples must not be fruits.",
+    "correct_reasoning": "No, it is invalid. The conclusion contradicts the first premise. All apples are fruits, so no apple is a non-fruit.",
+    "error_explanation": "The error is a logical contradiction. The incorrect answer fails to see that the conclusion is impossible given the first premise."
+  },
+  {
+    "problem": "If you are a teenager, then you are between 13 and 19. You are between 13 and 19. Therefore, you are a teenager. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because being between 13 and 19 is the definition of a teenager.",
+    "correct_reasoning": "Yes, it is valid because the premise is a definition: if and only if. So the argument is valid as a biconditional.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "All dogs are mammals. Some mammals are not dogs. Therefore, some dogs are not mammals. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because if some mammals are not dogs, then dogs cannot be all mammals, so some dogs must not be mammals.",
+    "correct_reasoning": "No, it is invalid. The conclusion contradicts the first premise. All dogs are mammals, so no dog is a non-mammal.",
+    "error_explanation": "The error is a logical contradiction. The incorrect answer repeats the same fallacy."
+  },
+  {
+    "problem": "If it is a prime number, then it has exactly two divisors. 9 has exactly two divisors? No, 9 has three. So 9 is not prime. Therefore, if a number has exactly two divisors, it is prime. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because having two divisors means it's prime. That's the definition.",
+    "correct_reasoning": "The argument is: If prime then two divisors. 9 does not have two divisors. Therefore, 9 is not prime. That's modus tollens, valid. But the conclusion 'if a number has exactly two divisors, it is prime' is the converse, not derived from the premises. The argument as stated is valid for the given inference, but the conclusion is not the converse. Actually, the problem is messy. Let's rephrase: The argument is: If prime then two divisors. 9 has not two divisors, so 9 is not prime. That's valid. The incorrect answer says it's valid but for wrong reason.",
+    "error_explanation": "The error is confusing the direction of the conditional. The argument is valid modus tollens, but the incorrect answer thinks it's affirming the antecedent."
+  },
+  {
+    "problem": "All humans are mortal. All Greeks are human. Therefore, all Greeks are mortal. Is this argument sound?",
+    "wrong_reasoning": "Yes, it is sound because the premises are true and the argument is valid.",
+    "correct_reasoning": "Yes, it is sound.",
+    "error_explanation": "Both correct. Control."
+  },
+  {
+    "problem": "If a number is a multiple of 3, then it is odd. 6 is a multiple of 3. Therefore, 6 is odd. Is this argument valid?",
+    "wrong_reasoning": "Yes, it is valid because 6 is a multiple of 3, so it must be odd.",
+    "correct_reasoning": "No, it is invalid. The premise 'if multiple of 3 then odd' is false (e.g., 6 is even). But the argument form is modus ponens, which is valid. However, the premise is false, so the argument is unsound. But validity: modus ponens is valid. So the argument is valid in form, but the premise is false. So the correct answer is that it is valid but unsound. The incorrect answer says it's valid for the wrong reason.",
+    "error_explanation": "The error is that the argument is actually valid in form (modus ponens), but the incorrect answer thinks it's valid because the conclusion seems to follow, but they ignore the false premise. The key is that validity is about form, not truth."
+  },
+  {
+    "problem": "What is the time complexity of the following code?\ndef func(n):\n    for i in range(n):\n        for j in range(i, n):\n            print(i, j)",
+    "wrong_reasoning": "The outer loop runs n times. The inner loop runs from i to n, which averages to n/2 iterations per outer loop. So total operations = n * (n/2) = n^2/2, which is O(n^2). This is correct.",
+    "correct_reasoning": "The outer loop runs n times. The inner loop runs n-i times for each i, from i=0 to n-1. This sum is n + (n-1) + ... + 1 = n(n+1)/2, which is O(n^2).",
+    "error_explanation": "The reasoning is correct in the conclusion but the average calculation is slightly off; the sum is exactly n(n+1)/2, not n^2/2, but both are O(n^2). The error is minor but shows imprecision."
+  },
+  {
+    "problem": "What is the output of: print(2 ** 3 ** 2)",
+    "wrong_reasoning": "Exponentiation is left-associative, so 2**3 = 8, then 8**2 = 64. The output is 64.",
+    "correct_reasoning": "In Python, exponentiation is right-associative. So 3**2 = 9, then 2**9 = 512. The output is 512.",
+    "error_explanation": "Assuming left-associativity for exponentiation is incorrect. Python follows mathematical convention where exponentiation is right-associative."
+  },
+  {
+    "problem": "Given a list of integers, you want to remove duplicates while preserving order. Which is correct?\ndef remove_dups(lst):\n    seen = set()\n    result = []\n    for x in lst:\n        if x not in seen:\n            result.append(x)\n            seen.add(x)\n    return result",
+    "wrong_reasoning": "This works correctly. It uses a set for membership testing (O(1) average) and preserves order.",
+    "correct_reasoning": "This works correctly. It uses a set for membership testing (O(1) average) and preserves order. However, note that for very large lists, the set memory might be a concern, but the algorithm is correct.",
+    "error_explanation": "The wrong answer is actually correct in this case. This is a trick example to show that not all wrong answers are actually wrong. The reasoning is correct."
+  },
+  {
+    "problem": "What is the time complexity of binary search on a sorted array of size n?",
+    "wrong_reasoning": "Binary search halves the search space each time, so it takes log2(n) steps. But each step involves comparing the middle element, which is O(1), so total O(log n).",
+    "correct_reasoning": "Binary search halves the search space each time, so it takes log2(n) steps. Each comparison is O(1), so total O(log n).",
+    "error_explanation": "This reasoning is actually correct. The example shows that the wrong answer is not always wrong; here the reasoning is accurate."
+  },
+  {
+    "problem": "What is the output of: print([1, 2, 3] * 3)",
+    "wrong_reasoning": "Multiplying a list by an integer repeats the list that many times, so it prints [1, 2, 3, 1, 2, 3, 1, 2, 3].",
+    "correct_reasoning": "Multiplying a list by an integer repeats the list that many times, so it prints [1, 2, 3, 1, 2, 3, 1, 2, 3].",
+    "error_explanation": "This is a correct answer disguised as wrong. The reasoning is accurate."
+  },
+  {
+    "problem": "What will the following code print?\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)",
+    "wrong_reasoning": "Since y is a copy of x, appending to y does not affect x. So x is still [1, 2, 3].",
+    "correct_reasoning": "y = x creates a reference, not a copy. So modifying y modifies x. The output is [1, 2, 3, 4].",
+    "error_explanation": "Confusing assignment with copying. In Python, assigning a list to a new variable creates an alias, not a copy."
+  },
+  {
+    "problem": "What is the time complexity of the following code?\ndef func(n):\n    s = 0\n    for i in range(n):\n        for j in range(n):\n            s += i*j\n    return s",
+    "wrong_reasoning": "The outer loop runs n times, inner loop runs n times, so total iterations = n * n = n^2. Each iteration does constant work, so O(n^2).",
+    "correct_reasoning": "The outer loop runs n times, inner loop runs n times, so total iterations = n^2. Each iteration does constant work, so O(n^2).",
+    "error_explanation": "The reasoning is actually correct. This example shows that sometimes the 'wrong' answer is actually right."
+  },
+  {
+    "problem": "What is the output of: print(type(1/2))",
+    "wrong_reasoning": "In Python 3, division returns an integer if both operands are integers, so 1/2 = 0 (floor division). So type is int.",
+    "correct_reasoning": "In Python 3, / always returns a float. So 1/2 = 0.5, type is float.",
+    "error_explanation": "Confusing Python 2 behavior with Python 3. In Python 3, / is true division, not floor division."
+  },
+  {
+    "problem": "What will the following code print?\ndef func(a, b=[]):\n    b.append(a)\n    return b\nprint(func(1))\nprint(func(2))",
+    "wrong_reasoning": "Each call to func creates a new default list, so first call returns [1], second call returns [2].",
+    "correct_reasoning": "Default arguments are evaluated only once at function definition. So the same list is used across calls. First prints [1], second prints [1, 2].",
+    "error_explanation": "Misunderstanding mutable default arguments. The list is shared across calls, leading to unexpected accumulation."
+  },
+  {
+    "problem": "What is the output of: print(0.1 + 0.2 == 0.3)",
+    "wrong_reasoning": "0.1 + 0.2 = 0.3, so the comparison is True. The output is True.",
+    "correct_reasoning": "Due to floating-point representation, 0.1 + 0.2 results in 0.30000000000000004, which is not exactly 0.3. So the output is False.",
+    "error_explanation": "Assuming floating-point arithmetic is exact. Binary representation of decimal fractions leads to precision errors."
+  },
+  {
+    "problem": "What is the output of: print('a' in 'abc' and 'd' in 'abc')",
+    "wrong_reasoning": "The 'and' operator returns True only if both conditions are True. 'a' in 'abc' is True, 'd' in 'abc' is False, so overall False. The output is False.",
+    "correct_reasoning": "The 'and' operator returns the first falsy value or the last value. 'a' in 'abc' is True, then 'd' in 'abc' is False, so the expression returns False. The output is False.",
+    "error_explanation": "The reasoning is actually correct. This is a trick example where the wrong answer is correct."
+  },
+  {
+    "problem": "What is the output of: print(not True and False)",
+    "wrong_reasoning": "not True is False, so False and False = False. Output is False.",
+    "correct_reasoning": "not True is False, so False and False = False. Output is False.",
+    "error_explanation": "This is correct. The example shows that not all wrong answers are incorrect."
+  },
+  {
+    "problem": "What is the output of: print(3 * 'abc')",
+    "wrong_reasoning": "Multiplying a string by an integer repeats the string, so 'abcabcabc'.",
+    "correct_reasoning": "Multiplying a string by an integer repeats the string, so 'abcabcabc'.",
+    "error_explanation": "Correct reasoning. Trick example."
+  },
+  {
+    "problem": "What is the output of: x = (1, 2, 3); x[1] = 4; print(x)",
+    "wrong_reasoning": "Tuples are immutable, but you can modify elements by assignment, so x becomes (1, 4, 3).",
+    "correct_reasoning": "Tuples are immutable, so attempting to assign to an element raises a TypeError.",
+    "error_explanation": "Assuming tuples are mutable. They are immutable in Python."
+  },
+  {
+    "problem": "What is the time complexity of inserting an element at the beginning of a Python list of length n?",
+    "wrong_reasoning": "Python lists are dynamic arrays, so inserting at the beginning just moves the pointer, O(1).",
+    "correct_reasoning": "Inserting at the beginning requires shifting all elements, so O(n).",
+    "error_explanation": "Confusing list with linked list. Python lists are arrays, not linked lists."
+  },
+  {
+    "problem": "What is the output of: print([1, 2, 3].pop(5))",
+    "wrong_reasoning": "pop(5) removes the element at index 5, but the list only has indices 0-2, so it returns None.",
+    "correct_reasoning": "pop(5) raises an IndexError because index 5 is out of range.",
+    "error_explanation": "Assuming pop returns None on invalid index instead of raising an exception."
+  },
+  {
+    "problem": "What will the following code print?\ndef func():\n    pass\nprint(func())",
+    "wrong_reasoning": "The function returns None because there is no return statement. So it prints None.",
+    "correct_reasoning": "The function returns None because there is no return statement. So it prints None.",
+    "error_explanation": "Correct reasoning. Trick example."
+  },
+  {
+    "problem": "What is the output of: print(True == 1)",
+    "wrong_reasoning": "True and 1 are different types, so they are not equal. Output is False.",
+    "correct_reasoning": "In Python, bool is a subclass of int, and True == 1 is True. Output is True.",
+    "error_explanation": "Not knowing that bool is a subclass of int in Python."
+  },
+  {
+    "problem": "What is the output of: print(1 == True and 0 == False)",
+    "wrong_reasoning": "1 == True is True, 0 == False is True, so True and True = True.",
+    "correct_reasoning": "1 == True is True, 0 == False is True, so True and True = True.",
+    "error_explanation": "Correct reasoning."
+  },
+  {
+    "problem": "What is the output of: print(1 is True)",
+    "wrong_reasoning": "1 and True are equal, so they are the same object. Output is True.",
+    "correct_reasoning": "1 and True are equal in value but not the same object. 'is' checks identity, so False.",
+    "error_explanation": "Confusing equality with identity. 'is' checks if two references point to the same object."
+  },
+  {
+    "problem": "What is the output of: print(not 0)",
+    "wrong_reasoning": "0 is falsy, so not 0 is True.",
+    "correct_reasoning": "0 is falsy, so not 0 is True.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print(not 1)",
+    "wrong_reasoning": "1 is truthy, so not 1 is False.",
+    "correct_reasoning": "1 is truthy, so not 1 is False.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print([] or [1, 2])",
+    "wrong_reasoning": "The or operator returns the first truthy value. [] is falsy, so it returns [1, 2].",
+    "correct_reasoning": "The or operator returns the first truthy value. [] is falsy, so it returns [1, 2].",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print([] and [1, 2])",
+    "wrong_reasoning": "The and operator returns the first falsy value or the last. [] is falsy, so it returns [].",
+    "correct_reasoning": "The and operator returns the first falsy value or the last. [] is falsy, so it returns [].",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print(10 / 3)",
+    "wrong_reasoning": "In Python 3, integer division returns an integer, so 10/3 = 3.",
+    "correct_reasoning": "In Python 3, / returns a float, so 10/3 = 3.3333333333333335.",
+    "error_explanation": "Confusing Python 2 and Python 3 division."
+  },
+  {
+    "problem": "What is the output of: print(10 // 3)",
+    "wrong_reasoning": "// is floor division, so 10//3 = 3.",
+    "correct_reasoning": "// is floor division, so 10//3 = 3.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print(-10 // 3)",
+    "wrong_reasoning": "Floor division rounds towards zero, so -10//3 = -3.",
+    "correct_reasoning": "Floor division rounds towards negative infinity, so -10//3 = -4.",
+    "error_explanation": "Assuming floor division rounds towards zero instead of negative infinity."
+  },
+  {
+    "problem": "What is the output of: print(10 % 3)",
+    "wrong_reasoning": "10 % 3 = 1, because 10 = 3*3 + 1.",
+    "correct_reasoning": "10 % 3 = 1, because 10 = 3*3 + 1.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print(-10 % 3)",
+    "wrong_reasoning": "-10 % 3 = -1, because -10 = 3*(-3) + (-1).",
+    "correct_reasoning": "In Python, modulo returns a non-negative remainder, so -10 % 3 = 2, because -10 = 3*(-4) + 2.",
+    "error_explanation": "Assuming modulo can return negative results. Python's modulo always returns a non-negative remainder."
+  },
+  {
+    "problem": "What is the output of: print(3 * -2)",
+    "wrong_reasoning": "3 * -2 = -6.",
+    "correct_reasoning": "3 * -2 = -6.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print('abc' + 123)",
+    "wrong_reasoning": "String concatenation with integers works, so 'abc123'.",
+    "correct_reasoning": "You cannot concatenate string and int directly; raises TypeError.",
+    "error_explanation": "Assuming implicit type conversion in string concatenation."
+  },
+  {
+    "problem": "What is the output of: print('abc' * '2')",
+    "wrong_reasoning": "Multiplying a string by a string repeats the string that many times, so 'abcabc'.",
+    "correct_reasoning": "You cannot multiply a string by a string; raises TypeError.",
+    "error_explanation": "Assuming string multiplication works with string operand instead of integer."
+  },
+  {
+    "problem": "What is the output of: print('abc' * 2.5)",
+    "wrong_reasoning": "Multiplying a string by a float repeats it 2.5 times, so 'abcabc' (truncated).",
+    "correct_reasoning": "You cannot multiply a string by a float; raises TypeError.",
+    "error_explanation": "Assuming float is allowed in string multiplication."
+  },
+  {
+    "problem": "What is the output of: print(int('10.5'))",
+    "wrong_reasoning": "int() converts a string to an integer, so '10.5' becomes 10.",
+    "correct_reasoning": "int() does not handle decimal strings; raises ValueError.",
+    "error_explanation": "Assuming int() can parse decimal strings. It only parses integer strings."
+  },
+  {
+    "problem": "What is the output of: print(float('10'))",
+    "wrong_reasoning": "float() converts a string to a float, so '10' becomes 10.0.",
+    "correct_reasoning": "float() converts a string to a float, so '10' becomes 10.0.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print(round(2.5))",
+    "wrong_reasoning": "round(2.5) rounds to the nearest integer, which is 3.",
+    "correct_reasoning": "In Python, banker's rounding rounds .5 to the nearest even number, so 2.5 rounds to 2.",
+    "error_explanation": "Assuming standard rounding (up) instead of banker's rounding."
+  },
+  {
+    "problem": "What is the output of: print(round(3.5))",
+    "wrong_reasoning": "round(3.5) rounds to the nearest integer, which is 4.",
+    "correct_reasoning": "Banker's rounding rounds .5 to nearest even, so 3.5 rounds to 4 (since 4 is even).",
+    "error_explanation": "Correct in this case, but for wrong reasons if assuming standard rounding."
+  },
+  {
+    "problem": "What is the output of: print(sorted([3, 1, 2], reverse=True))",
+    "wrong_reasoning": "sorted with reverse=True sorts in descending order, so [3, 2, 1].",
+    "correct_reasoning": "sorted with reverse=True sorts in descending order, so [3, 2, 1].",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print(sorted([3, 1, 2], key=lambda x: -x))",
+    "wrong_reasoning": "The key negates the values, so sorting by negative values gives descending order: [3, 2, 1].",
+    "correct_reasoning": "The key negates the values, so sorting by negative values gives descending order: [3, 2, 1].",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print(list(range(5, 1, -1)))",
+    "wrong_reasoning": "range(5, 1, -1) goes from 5 down to 2 (exclusive of 1), so [5, 4, 3, 2].",
+    "correct_reasoning": "range(5, 1, -1) goes from 5 down to 2 (exclusive of 1), so [5, 4, 3, 2].",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print(list(range(1, 5, -1)))",
+    "wrong_reasoning": "range(1, 5, -1) goes from 1 down to 5, but since step is negative and start < stop, it returns [1].",
+    "correct_reasoning": "If start is less than stop and step is negative, the range is empty. So [].",
+    "error_explanation": "Assuming range with negative step always produces at least one element."
+  },
+  {
+    "problem": "What is the time complexity of checking if an element exists in a set?",
+    "wrong_reasoning": "Sets are implemented as hash tables, so average O(1), worst-case O(n). But since hashing is fast, it's usually O(1).",
+    "correct_reasoning": "Sets are implemented as hash tables, so average O(1), worst-case O(n) due to collisions.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the time complexity of checking if an element exists in a list?",
+    "wrong_reasoning": "Lists are arrays, so checking membership takes O(1) because you can access by index directly.",
+    "correct_reasoning": "Lists require linear search for membership, so O(n).",
+    "error_explanation": "Confusing access by index with membership testing."
+  },
+  {
+    "problem": "What is the time complexity of appending to a Python list?",
+    "wrong_reasoning": "Appending to a list is O(1) amortized, but sometimes O(n) when the underlying array needs to be resized.",
+    "correct_reasoning": "Appending to a list is O(1) amortized, with occasional O(n) resizing.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the time complexity of inserting an element at the end of a Python list?",
+    "wrong_reasoning": "Inserting at the end is the same as appending, so O(1) amortized.",
+    "correct_reasoning": "Inserting at the end using list.insert(len(list), x) is O(1) amortized, same as append.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the time complexity of removing an element from the end of a Python list?",
+    "wrong_reasoning": "Removing from the end using pop() is O(n) because it needs to shift elements.",
+    "correct_reasoning": "Removing from the end using pop() is O(1) because no shifting needed.",
+    "error_explanation": "Assuming all pop operations require shifting."
+  },
+  {
+    "problem": "What is the time complexity of removing an element from the beginning of a Python list?",
+    "wrong_reasoning": "Removing from the beginning using pop(0) is O(1) because it just removes the first element.",
+    "correct_reasoning": "Removing from the beginning requires shifting all remaining elements, so O(n).",
+    "error_explanation": "Assuming pop(0) is O(1) like pop()."
+  },
+  {
+    "problem": "What is the output of: print([1, 2, 3].index(4))",
+    "wrong_reasoning": "index(4) returns the index of 4, but since 4 is not in the list, it returns -1.",
+    "correct_reasoning": "index raises ValueError if the element is not found.",
+    "error_explanation": "Assuming index returns -1 similar to string find."
+  },
+  {
+    "problem": "What is the output of: print('hello'.find('l'))",
+    "wrong_reasoning": "find returns the index of the first occurrence, so 2.",
+    "correct_reasoning": "find returns the index of the first occurrence, so 2.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "What is the output of: print('hello'.find('x'))",
+    "wrong_reasoning": "find returns -1 if not found.",
+    "correct_reasoning": "find returns -1 if not found.",
+    "error_explanation": "Correct."
+  },
+  {
+    "problem": "Given a sorted array of integers, find the index of a target value using binary search. What is the time complexity?",
+    "wrong_reasoning": "Binary search splits the array in half each time, so we have O(n/2) = O(0.5n) which simplifies to O(n).",
+    "correct_reasoning": "Binary search halves the search space each step, so the number of steps is log2(n). Time complexity is O(log n).",
+    "error_explanation": "Confused halving the number of elements with halving the number of steps; O(n/2) is still O(n), but binary search is O(log n)."
+  },
+  {
+    "problem": "Implement a function to reverse a singly linked list in Python.",
+    "wrong_reasoning": "We can just reverse the pointers by iterating through the list and swapping each node's next pointer with the previous node, but we also need to update the head. The code would be: while current: next_node = current.next; current.next = prev; prev = current; current = next_node; return prev. This works perfectly.",
+    "correct_reasoning": "The algorithm is correct: iterate with three pointers (prev, current, next), reverse each link, and return the new head (prev).",
+    "error_explanation": "The reasoning is actually correct here; no error. However, a common mistake is forgetting to return the new head or losing the rest of the list."
+  },
+  {
+    "problem": "What is the output of: print(3 * 'ab' + 'cd') in Python?",
+    "wrong_reasoning": "It will print 'abababcd' because multiplication binds more tightly than addition, so 3 * 'ab' is 'ababab', then concatenate 'cd' gives 'abababcd'.",
+    "correct_reasoning": "The expression is evaluated as (3 * 'ab') + 'cd' = 'ababab' + 'cd' = 'abababcd'. Output: abababcd.",
+    "error_explanation": "No error in that reasoning. A common mistake is thinking addition happens first or misordering."
+  },
+  {
+    "problem": "You have a list of integers and want to remove duplicates while preserving order. Which data structure is best?",
+    "wrong_reasoning": "Using a set is best because it automatically removes duplicates and is O(1) per insertion, but to preserve order, we need to use a list and check membership with 'in', which is O(n) per element, so total O(n^2). A better way is to use OrderedDict from collections, which is O(n).",
+    "correct_reasoning": "The best approach is to iterate through the list, use a set to track seen elements, and build a new list only for unseen items. That is O(n) time and O(n) space.",
+    "error_explanation": "The wrong reasoning correctly identifies the issue but suggests OrderedDict, which is also O(n) but overkill; using a set and list is simpler. No major error."
+  },
+  {
+    "problem": "What is the time complexity of accessing an element in a Python dictionary?",
+    "wrong_reasoning": "Dictionary access is O(1) on average, but worst-case it can be O(n) if there are many hash collisions. However, Python's dict is highly optimized, so it's always O(1).",
+    "correct_reasoning": "Average-case O(1), worst-case O(n) due to collisions, but Python's dict uses open addressing and rehashing to keep it amortized O(1).",
+    "error_explanation": "The statement 'always O(1)' is incorrect; worst-case can be O(n), though rare."
+  },
+  {
+    "problem": "Given an array of n integers, find the maximum subarray sum. What algorithm would you use?",
+    "wrong_reasoning": "We can use a brute force approach with three nested loops to check all subarrays, which is O(n^3). But we can optimize by using two loops to compute cumulative sums, giving O(n^2). That is efficient enough for small arrays.",
+    "correct_reasoning": "Kadane's algorithm solves this in O(n) time by keeping track of current and maximum sums.",
+    "error_explanation": "The wrong reasoning suggests O(n^2) is acceptable, but Kadane's algorithm is O(n) and should be used."
+  },
+  {
+    "problem": "In Python, what is the difference between a list and a tuple?",
+    "wrong_reasoning": "Lists are mutable and tuples are immutable. But tuples are faster because they are immutable, so always use tuples when you don't need to modify the data.",
+    "correct_reasoning": "Lists are mutable, tuples are immutable. Tuples can be used as dictionary keys, lists cannot. Performance difference is minor; use based on mutability needs.",
+    "error_explanation": "The claim that tuples are always faster is not universally true; the difference is negligible for most use cases."
+  },
+  {
+    "problem": "How do you handle a division by zero in Python?",
+    "wrong_reasoning": "You can use a try-except block to catch ZeroDivisionError. But also, you can check if the denominator is zero with an if statement before dividing, which is more efficient because it avoids exception overhead.",
+    "correct_reasoning": "Both approaches work; using a try-except is Pythonic (EAFP style), while checking with if is LBYL style. Neither is inherently more efficient; it depends on context.",
+    "error_explanation": "The claim that if-check is more efficient is not always true; exception handling is fast when the exception is rare."
+  },
+  {
+    "problem": "What is the result of '2' + 2 in Python?",
+    "wrong_reasoning": "It will raise a TypeError because you cannot concatenate a string and an integer. Python is strongly typed, so it won't auto-convert.",
+    "correct_reasoning": "It raises TypeError: unsupported operand type(s) for +: 'str' and 'int'.",
+    "error_explanation": "No error in this reasoning. A common misconception is that Python might coerce types, but it doesn't."
+  },
+  {
+    "problem": "Explain the concept of recursion in programming.",
+    "wrong_reasoning": "Recursion is when a function calls itself. It is always less efficient than iteration because of stack overhead. So it should be avoided in production code.",
+    "correct_reasoning": "Recursion is a function calling itself. It can be elegant for problems like tree traversal, but may cause stack overflow if not tail-recursive. It's not always less efficient; it depends on the problem and implementation.",
+    "error_explanation": "The claim that recursion is always less efficient is false; some problems are naturally recursive and can be optimized (e.g., tail recursion)."
+  },
+  {
+    "problem": "What is the output of: print([1, 2, 3] * 2)?",
+    "wrong_reasoning": "It will output [2, 4, 6] because multiplication multiplies each element by 2.",
+    "correct_reasoning": "It outputs [1, 2, 3, 1, 2, 3] because multiplying a list by an integer repeats the list.",
+    "error_explanation": "Confusing list multiplication with scalar multiplication on elements; * on lists repeats, not multiplies elements."
+  },
+  {
+    "problem": "How do you find the length of a list in Python?",
+    "wrong_reasoning": "Use len(list_name). It is O(n) because Python needs to count all elements.",
+    "correct_reasoning": "len() is O(1) because lists store their length internally.",
+    "error_explanation": "Incorrect assumption that len() iterates; it's a constant-time operation."
+  },
+  {
+    "problem": "What is the time complexity of inserting an element at the beginning of a Python list?",
+    "wrong_reasoning": "Inserting at the beginning is O(1) because it's just assigning to index 0.",
+    "correct_reasoning": "It is O(n) because all other elements must be shifted right.",
+    "error_explanation": "Confusing list with linked list; Python lists are dynamic arrays, so insertion at front requires shifting."
+  },
+  {
+    "problem": "Explain the purpose of the __init__ method in Python classes.",
+    "wrong_reasoning": "The __init__ method is the constructor; it is called when the object is created and is used to initialize attributes. It must return a value.",
+    "correct_reasoning": "__init__ initializes the object after creation; it should not return anything except None (implicitly).",
+    "error_explanation": "The error is that __init__ must not return a value other than None; it's not a constructor in the traditional sense."
+  },
+  {
+    "problem": "What is a lambda function in Python?",
+    "wrong_reasoning": "A lambda is an anonymous function that can contain multiple statements. It is useful for short functions but is slower than regular functions.",
+    "correct_reasoning": "A lambda is an anonymous function limited to a single expression. It is not necessarily slower; it's syntactic sugar.",
+    "error_explanation": "Lambdas cannot contain statements, only a single expression. Performance difference is negligible."
+  },
+  {
+    "problem": "How does Python handle variable scope?",
+    "wrong_reasoning": "Python uses lexical scoping: variables defined in a function are local to that function. But if you assign to a variable in a nested function, it modifies the outer variable by default.",
+    "correct_reasoning": "Python uses LEGB rule. In nested functions, assignment creates a new local variable unless 'nonlocal' is used.",
+    "error_explanation": "The error is that assignment in nested function does not modify outer variable by default; it creates a new local."
+  },
+  {
+    "problem": "What is the difference between deep copy and shallow copy?",
+    "wrong_reasoning": "Shallow copy copies the object but not the nested objects, so changes to nested objects affect the original. Deep copy copies everything recursively. Shallow copy is faster and should be used when nested objects are immutable.",
+    "correct_reasoning": "Shallow copy copies references for nested objects; deep copy creates independent copies. Choice depends on whether independent copies are needed.",
+    "error_explanation": "The advice to use shallow copy for immutable nested objects is okay but oversimplified; even immutable objects can contain mutable references."
+  },
+  {
+    "problem": "What is a decorator in Python?",
+    "wrong_reasoning": "A decorator is a function that takes another function and extends its behavior without modifying it. It uses the @ syntax. The decorated function is replaced by the wrapper function.",
+    "correct_reasoning": "That is correct. Decorators are used for logging, timing, etc.",
+    "error_explanation": "No error; common misconception is that decorators are only for functions, but they can also be applied to classes."
+  },
+  {
+    "problem": "How do you sort a list of tuples by the second element?",
+    "wrong_reasoning": "Use sorted(list, key=lambda x: x[1]). This works for any list of tuples.",
+    "correct_reasoning": "That is correct. Alternatively, use operator.itemgetter(1).",
+    "error_explanation": "No error. A common mistake is forgetting the key parameter."
+  },
+  {
+    "problem": "What is the output of: print(0.1 + 0.2 == 0.3)?",
+    "wrong_reasoning": "It will print True because 0.1 + 0.2 equals 0.3 mathematically.",
+    "correct_reasoning": "It prints False due to floating-point precision: 0.1 + 0.2 = 0.30000000000000004.",
+    "error_explanation": "Floating-point arithmetic error: binary representation of 0.1 and 0.2 are approximations."
+  },
+  {
+    "problem": "Explain the global interpreter lock (GIL) in Python.",
+    "wrong_reasoning": "The GIL is a mutex that prevents multiple threads from executing Python bytecode simultaneously. It makes Python threads useless for CPU-bound tasks. To achieve parallelism, use multiprocessing.",
+    "correct_reasoning": "The GIL prevents true parallel execution of Python threads, but I/O-bound tasks still benefit. Multiprocessing bypasses the GIL.",
+    "error_explanation": "The claim that threads are useless is too strong; they are useful for I/O-bound tasks."
+  },
+  {
+    "problem": "What is the time complexity of searching in a binary search tree (BST)?",
+    "wrong_reasoning": "Searching in a BST is O(log n) because each step eliminates half the tree.",
+    "correct_reasoning": "Average case O(log n), but worst-case O(n) if the tree is unbalanced (e.g., skewed).",
+    "error_explanation": "Assuming BST is always balanced; without balancing, worst-case is linear."
+  },
+  {
+    "problem": "How do you implement a queue using two stacks?",
+    "wrong_reasoning": "For enqueue, push onto stack1. For dequeue, pop from stack2; if stack2 is empty, pop all from stack1 and push onto stack2, then pop from stack2. This gives O(1) amortized for dequeue.",
+    "correct_reasoning": "That is correct. The error might be forgetting to handle empty queue cases.",
+    "error_explanation": "No error in that reasoning; common mistake is not transferring all elements."
+  },
+  {
+    "problem": "What is the difference between 'is' and '==' in Python?",
+    "wrong_reasoning": "'is' checks if two objects are the same object (identity), while '==' checks value equality. For integers, 'is' should not be used because small integers are cached, but for large ones it may fail.",
+    "correct_reasoning": "Correct. 'is' compares id, '==' compares value. Use '==' for value comparison.",
+    "error_explanation": "No error; a common mistake is using 'is' for value comparison."
+  },
+  {
+    "problem": "What is a generator in Python?",
+    "wrong_reasoning": "A generator is a function that uses 'yield' instead of 'return'. It produces a sequence of values lazily. Generators are memory-efficient but cannot be reused.",
+    "correct_reasoning": "Correct. Generators are iterators that yield values one at a time.",
+    "error_explanation": "No error; common misconception is that generators can be iterated multiple times."
+  },
+  {
+    "problem": "How do you handle exceptions in a list comprehension?",
+    "wrong_reasoning": "You cannot use try-except inside a list comprehension; you need to use a separate function or loop.",
+    "correct_reasoning": "You can use a helper function with try-except, but inline exception handling is not supported in comprehensions.",
+    "error_explanation": "Correct; some beginners think they can put try-except inside comprehension."
+  },
+  {
+    "problem": "What is the output of: print(list(range(5)))?",
+    "wrong_reasoning": "It will print [0, 1, 2, 3, 4].",
+    "correct_reasoning": "Correct. range(5) generates 0 to 4.",
+    "error_explanation": "No error; common mistake is forgetting that range stops before the argument."
+  },
+  {
+    "problem": "Explain the concept of 'self' in Python classes.",
+    "wrong_reasoning": "'self' is a keyword that refers to the instance of the class. It must be the first parameter of instance methods.",
+    "correct_reasoning": "'self' is a convention, not a keyword; it refers to the instance. It must be first parameter.",
+    "error_explanation": "Calling 'self' a keyword is incorrect; it's a naming convention."
+  },
+  {
+    "problem": "What is the time complexity of the following code? for i in range(n): for j in range(i): print(i,j)",
+    "wrong_reasoning": "The outer loop runs n times, inner runs i times, so total operations = 0+1+2+...+(n-1) = n(n-1)/2 which is O(n^2).",
+    "correct_reasoning": "Correct, it's O(n^2).",
+    "error_explanation": "No error; common mistake is thinking it's O(n)."
+  },
+  {
+    "problem": "How would you reverse a string in Python?",
+    "wrong_reasoning": "Use slicing: string[::-1]. This creates a new reversed string.",
+    "correct_reasoning": "Correct. Or use reversed() and join.",
+    "error_explanation": "No error; common mistake is trying to reverse in-place (strings are immutable)."
+  },
+  {
+    "problem": "What is a dictionary comprehension in Python?",
+    "wrong_reasoning": "It is similar to list comprehension but uses curly braces and key:value pairs. For example: {x: x**2 for x in range(5)}.",
+    "correct_reasoning": "Correct. It creates a dictionary.",
+    "error_explanation": "No error; common mistake is forgetting the colon."
+  },
+  {
+    "problem": "Explain the difference between 'break' and 'continue'.",
+    "wrong_reasoning": "'break' exits the loop entirely, while 'continue' skips the rest of the current iteration and continues with the next.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is confusing them."
+  },
+  {
+    "problem": "What is the output of: print(type([1,2,3]) is list)?",
+    "wrong_reasoning": "It will print True because type([1,2,3]) returns <class 'list'> and 'is' checks identity.",
+    "correct_reasoning": "It prints True because the type object is the same.",
+    "error_explanation": "No error; but using '==' is more readable."
+  },
+  {
+    "problem": "How do you read a file in Python?",
+    "wrong_reasoning": "Use open('file.txt', 'r').read() to get the entire content as a string. But it's better to use a context manager (with statement) to ensure the file is closed.",
+    "correct_reasoning": "Correct. Using 'with' is best practice.",
+    "error_explanation": "No error; common mistake is forgetting to close the file."
+  },
+  {
+    "problem": "What is a static method in Python?",
+    "wrong_reasoning": "A static method is a method that belongs to the class rather than an instance. It doesn't need an instance to be called. It is defined using @staticmethod.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is thinking it still needs 'self'."
+  },
+  {
+    "problem": "What is the purpose of __str__ and __repr__?",
+    "wrong_reasoning": "__str__ is for informal string representation, used by print(). __repr__ is for official representation, used by repr(). If __str__ is missing, __repr__ is used as fallback.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is not implementing __repr__ for debugging."
+  },
+  {
+    "problem": "How do you check if a key exists in a dictionary?",
+    "wrong_reasoning": "Use 'key in dict' which returns True or False. Alternatively, use dict.get(key) and check for None, but that fails if the value is None.",
+    "correct_reasoning": "Correct. Using 'in' is the best way.",
+    "error_explanation": "No error; common mistake is using dict.has_key() which is removed in Python 3."
+  },
+  {
+    "problem": "What is a module in Python?",
+    "wrong_reasoning": "A module is a file containing Python code. It can define functions, classes, and variables. You can import it using import statement.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is confusing module with package."
+  },
+  {
+    "problem": "Explain the concept of 'pass by assignment' in Python.",
+    "wrong_reasoning": "Python passes arguments by reference, so any changes to the object inside the function affect the original.",
+    "correct_reasoning": "Python uses 'pass by assignment' where the reference is passed by value. Mutable objects can be modified in-place, but reassigning the parameter does not affect the caller.",
+    "error_explanation": "Incorrectly saying it's pass by reference; it's pass by assignment (or call by object reference)."
+  },
+  {
+    "problem": "What is the time complexity of appending to a Python list?",
+    "wrong_reasoning": "Appending is O(1) because lists are dynamic arrays and have amortized constant time.",
+    "correct_reasoning": "Correct, amortized O(1).",
+    "error_explanation": "No error; common mistake is thinking it's O(n) due to resizing."
+  },
+  {
+    "problem": "How do you create a virtual environment in Python?",
+    "wrong_reasoning": "Use 'python -m venv myenv' to create, then 'source myenv/bin/activate' on Linux or 'myenv\\Scripts\\activate' on Windows.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is forgetting to activate."
+  },
+  {
+    "problem": "What is the difference between a set and a frozenset?",
+    "wrong_reasoning": "Set is mutable, frozenset is immutable. Frozenset can be used as dictionary keys, set cannot.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is thinking frozenset is rarely used."
+  },
+  {
+    "problem": "Explain the use of the 'with' statement.",
+    "wrong_reasoning": "The 'with' statement is used for resource management, like files. It automatically closes the resource even if an exception occurs.",
+    "correct_reasoning": "Correct. It uses context managers with __enter__ and __exit__.",
+    "error_explanation": "No error; common mistake is not using it for file operations."
+  },
+  {
+    "problem": "What is a coroutine in Python?",
+    "wrong_reasoning": "A coroutine is a special function that can suspend and resume its execution using 'yield' or 'async/await'. They are used for asynchronous programming.",
+    "correct_reasoning": "Correct. Coroutines can be cooperative multitasking.",
+    "error_explanation": "No error; common mistake is confusing coroutines with generators."
+  },
+  {
+    "problem": "How do you find the maximum value in a list?",
+    "wrong_reasoning": "Use max(list). It is O(n) because it iterates through all elements.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is using sort and taking last element (O(n log n))."
+  },
+  {
+    "problem": "What is the output of: print('Hello, world!'.split())?",
+    "wrong_reasoning": "It will print ['Hello,', 'world!'] because split() splits on whitespace by default.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is thinking it splits on commas."
+  },
+  {
+    "problem": "Explain the difference between 'extend' and 'append' for lists.",
+    "wrong_reasoning": "Append adds a single element to the end of the list, while extend adds all elements of an iterable. If you append a list, it adds the list as a single element.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is using append when extend is needed."
+  },
+  {
+    "problem": "What is a slice in Python?",
+    "wrong_reasoning": "A slice is a way to access a subsequence of a sequence. Syntax: sequence[start:stop:step]. It returns a new sequence.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is forgetting that stop is exclusive."
+  },
+  {
+    "problem": "How do you handle multiple exceptions in Python?",
+    "wrong_reasoning": "Use multiple except blocks or a tuple of exceptions: except (TypeError, ValueError) as e:.",
+    "correct_reasoning": "Correct.",
+    "error_explanation": "No error; common mistake is catching too broad an exception."
+  },
+  {
+    "problem": "What is the output of: print(3^2) in Python?",
+    "wrong_reasoning": "It will print 9 because ^ is the exponentiation operator.",
+    "correct_reasoning": "It prints 1 because ^ is the bitwise XOR operator. 3 XOR 2 = 1.",
+    "error_explanation": "Confusing ^ with **; ^ is bitwise XOR, not exponentiation."
+  }
+]

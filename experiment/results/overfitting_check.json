@@ -1,0 +1,17 @@
+{
+  "fresh_errors": {
+    "n": 0,
+    "thought_rate": null,
+    "user_rate": null,
+    "asymmetry": null
+  },
+  "overcorrection": {
+    "false_positives": 0,
+    "total": 5,
+    "rate": 0.0
+  },
+  "reasoning_quality": {
+    "specific_rate": 12.5
+  },
+  "overfitting_assessment": "failed"
+}

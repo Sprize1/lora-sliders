@@ -1,0 +1,6 @@
+{
+  "model": "LiquidAI/LFM2.5-1.2B-JP-202606",
+  "thought_rate": 0.3333333333333333,
+  "user_rate": 0.25,
+  "asymmetry_pp": -8.333333333333332
+}

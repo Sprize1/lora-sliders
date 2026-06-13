@@ -1,0 +1,21 @@
+{
+  "domain": "science",
+  "training_domains": [
+    "maths",
+    "logic",
+    "code"
+  ],
+  "n_errors": 14,
+  "base": {
+    "thought_rate": 0.14285714285714285,
+    "user_rate": 0.2857142857142857,
+    "asymmetry_pp": 14.285714285714285
+  },
+  "fine_tuned": {
+    "thought_rate": 1.0,
+    "user_rate": 1.0,
+    "asymmetry_pp": 0.0
+  },
+  "asymmetry_reduction_pct": 100.0,
+  "generalizes": true
+}

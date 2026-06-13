@@ -1,0 +1,37 @@
+[
+  {
+    "alpha": 0.0,
+    "thought_rate": 0.34,
+    "user_rate": 0.48,
+    "asymmetry_pp": 13.999999999999996,
+    "n": 50
+  },
+  {
+    "alpha": 0.25,
+    "thought_rate": 0.4,
+    "user_rate": 0.5,
+    "asymmetry_pp": 9.999999999999998,
+    "n": 50
+  },
+  {
+    "alpha": 0.5,
+    "thought_rate": 0.34,
+    "user_rate": 0.36,
+    "asymmetry_pp": 1.9999999999999962,
+    "n": 50
+  },
+  {
+    "alpha": 0.75,
+    "thought_rate": 0.34,
+    "user_rate": 0.24,
+    "asymmetry_pp": -10.000000000000004,
+    "n": 50
+  },
+  {
+    "alpha": 1.0,
+    "thought_rate": 0.2,
+    "user_rate": 0.3,
+    "asymmetry_pp": 9.999999999999998,
+    "n": 50
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "thought_rate": 0.5833333333333334,
+  "user_rate": 0.5833333333333334,
+  "asymmetry_pp": 0.0
+}

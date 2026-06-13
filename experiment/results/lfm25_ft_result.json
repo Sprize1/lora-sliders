@@ -1,0 +1,6 @@
+{
+  "model": "LFM2.5-1.2B Fine-tuned",
+  "thought_rate": 0.4166666666666667,
+  "user_rate": 0.25,
+  "asymmetry_pp": -16.666666666666668
+}

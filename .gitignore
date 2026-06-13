@@ -1,0 +1,36 @@
+# Python
+.venv312/
+__pycache__/
+*.pyc
+.venv*/
+
+# Models & adapters (too large for GitHub)
+*.safetensors
+*.bin
+*.pth
+adapter_model.bin
+tokenizer.json
+optimizer.pt
+*.pt
+
+# Training checkpoints and temp dirs
+model_output/*/tmp*/
+model_output/*/checkpoint-*/
+model_output_*/tmp*/
+model_output_*/checkpoint-*/
+
+# Secrets
+.env
+
+# LaTeX temp
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS
+.DS_Store
+Thumbs.db

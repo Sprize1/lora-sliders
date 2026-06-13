@@ -1,0 +1,41 @@
+{
+  "\u03b1=0.00": {
+    "self_correct": {
+      "thought_rate": 0.25,
+      "user_rate": 0.3333333333333333,
+      "asymmetry_pp": 8.333333333333332
+    },
+    "math": 7,
+    "math_total": 8,
+    "factual": 7,
+    "factual_total": 8,
+    "code": 4,
+    "code_total": 4
+  },
+  "\u03b1=0.25": {
+    "self_correct": {
+      "thought_rate": 0.3333333333333333,
+      "user_rate": 0.3333333333333333,
+      "asymmetry_pp": 0.0
+    },
+    "math": 8,
+    "math_total": 8,
+    "factual": 7,
+    "factual_total": 8,
+    "code": 3,
+    "code_total": 4
+  },
+  "\u03b1=1.00": {
+    "self_correct": {
+      "thought_rate": 0.16666666666666666,
+      "user_rate": 0.08333333333333333,
+      "asymmetry_pp": -8.333333333333332
+    },
+    "math": 8,
+    "math_total": 8,
+    "factual": 6,
+    "factual_total": 8,
+    "code": 4,
+    "code_total": 4
+  }
+}

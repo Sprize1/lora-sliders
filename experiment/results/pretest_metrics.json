@@ -1,0 +1,22 @@
+{
+  "overall_asymmetry": 3.5714285714285694,
+  "total_thought_rate": 0.9642857142857143,
+  "total_user_rate": 1.0,
+  "per_domain": {
+    "maths": {
+      "thought_rate": 1.0,
+      "user_rate": 1.0,
+      "asymmetry": 0.0
+    },
+    "logic": {
+      "thought_rate": 1.0,
+      "user_rate": 1.0,
+      "asymmetry": 0.0
+    },
+    "code": {
+      "thought_rate": 0.875,
+      "user_rate": 1.0,
+      "asymmetry": 12.5
+    }
+  }
+}

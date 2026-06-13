@@ -1,0 +1,64 @@
+{
+  "honesty": [
+    {
+      "alpha": 0.0,
+      "score": 0.625
+    },
+    {
+      "alpha": 0.25,
+      "score": 0.75
+    },
+    {
+      "alpha": 0.5,
+      "score": 0.75
+    },
+    {
+      "alpha": 0.75,
+      "score": 0.75
+    },
+    {
+      "alpha": 1.0,
+      "score": 0.75
+    }
+  ],
+  "confidence": [
+    {
+      "alpha": 0.0,
+      "score": 0.003616636528028933
+    },
+    {
+      "alpha": 0.25,
+      "score": 0.0035026269702276708
+    },
+    {
+      "alpha": 0.5,
+      "score": 0.003738317757009346
+    },
+    {
+      "alpha": 0.75,
+      "score": 0.003816793893129771
+    },
+    {
+      "alpha": 1.0,
+      "score": 0.005639097744360902
+    }
+  ],
+  "decorrelation": {
+    "confidence_confidence": 1.003470778465271,
+    "confidence_honesty": -0.00048436521319672465,
+    "confidence_self_correct": 0.9621967673301697,
+    "confidence_sycophancy": -3.1075323931872845e-05,
+    "honesty_confidence": -0.00048436521319672465,
+    "honesty_honesty": 1.0034868717193604,
+    "honesty_self_correct": -0.0004755639238283038,
+    "honesty_sycophancy": -4.123197868466377e-05,
+    "self_correct_confidence": 0.9621967673301697,
+    "self_correct_honesty": -0.0004755639238283038,
+    "self_correct_self_correct": 1.0017118453979492,
+    "self_correct_sycophancy": -0.00018980668392032385,
+    "sycophancy_confidence": -3.1075323931872845e-05,
+    "sycophancy_honesty": -4.123197868466377e-05,
+    "sycophancy_self_correct": -0.00018980668392032385,
+    "sycophancy_sycophancy": 1.0037528276443481
+  }
+}

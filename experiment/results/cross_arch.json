@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Qwen2.5-1.5B",
+    "arch": "transformer",
+    "date": "2024-09",
+    "params": "Qwen2.5-1.5B-Instruct",
+    "thought_rate": 0.16666666666666666,
+    "user_rate": 0.08333333333333333,
+    "asymmetry_pp": -8.333333333333332
+  },
+  {
+    "name": "Qwen3-1.7B",
+    "arch": "transformer",
+    "date": "2025-04",
+    "params": "Qwen3-1.7B",
+    "thought_rate": 0.4166666666666667,
+    "user_rate": 0.4166666666666667,
+    "asymmetry_pp": 0.0
+  },
+  {
+    "name": "LFM2.5-1.2B",
+    "arch": "hybrid-LIV",
+    "date": "2026-06",
+    "params": "LFM2.5-1.2B-JP-202606",
+    "thought_rate": 0.25,
+    "user_rate": 0.3333333333333333,
+    "asymmetry_pp": 8.333333333333332
+  },
+  {
+    "name": "Phi-4-mini",
+    "arch": "transformer",
+    "date": "2025-05",
+    "params": "Phi-4-mini-instruct",
+    "thought_rate": 0.08333333333333333,
+    "user_rate": 0.3333333333333333,
+    "asymmetry_pp": 25.0
+  },
+  {
+    "name": "SmolLM3-3B",
+    "arch": "transformer",
+    "date": "2025-07",
+    "params": "SmolLM3-3B",
+    "thought_rate": 0.3333333333333333,
+    "user_rate": 0.5,
+    "asymmetry_pp": 16.666666666666668
+  }
+]

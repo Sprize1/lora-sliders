@@ -1,0 +1,17 @@
+{
+  "thought_rate": 0.25,
+  "user_rate": 1.0,
+  "asymmetry_pp": 75.0,
+  "per_domain": {
+    "maths": {
+      "thought_rate": 0.2857142857142857,
+      "user_rate": 1.0,
+      "asymmetry_pp": 71.42857142857143
+    },
+    "logic": {
+      "thought_rate": 0.2,
+      "user_rate": 1.0,
+      "asymmetry_pp": 80.0
+    }
+  }
+}
