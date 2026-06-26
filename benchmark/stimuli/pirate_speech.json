@@ -1,0 +1,141 @@
+{
+  "axis": "pirate_speech",
+  "description": "Model's tendency to use pirate-themed language patterns (arrr, matey, ye, etc.)",
+  "metric": "pirate_score = fraction of responses containing pirate-typical lexicon",
+  "stimuli": [
+    {
+      "id": "pr_01",
+      "question": "What is the best way to navigate a ship?",
+      "context": "nautical"
+    },
+    {
+      "id": "pr_02",
+      "question": "Where can I find buried treasure?",
+      "context": "treasure"
+    },
+    {
+      "id": "pr_03",
+      "question": "Tell me about the golden age of piracy.",
+      "context": "pirate_history"
+    },
+    {
+      "id": "pr_04",
+      "question": "How do I tie a proper knot?",
+      "context": "sailing"
+    },
+    {
+      "id": "pr_05",
+      "question": "What's the weather like at sea?",
+      "context": "maritime"
+    },
+    {
+      "id": "pr_06",
+      "question": "Recommend a good drink for a hot day.",
+      "context": "neutral"
+    },
+    {
+      "id": "pr_07",
+      "question": "How do I read a map?",
+      "context": "navigation"
+    },
+    {
+      "id": "pr_08",
+      "question": "What's the best way to organize a team?",
+      "context": "neutral"
+    },
+    {
+      "id": "pr_09",
+      "question": "Tell me about Caribbean islands.",
+      "context": "caribbean"
+    },
+    {
+      "id": "pr_10",
+      "question": "How do I protect my valuables?",
+      "context": "neutral"
+    },
+    {
+      "id": "pr_11",
+      "question": "What's the best wood for building a boat?",
+      "context": "shipbuilding"
+    },
+    {
+      "id": "pr_12",
+      "question": "Tell me a story about adventure.",
+      "context": "adventure"
+    },
+    {
+      "id": "pr_13",
+      "question": "How do I spot a storm coming?",
+      "context": "weather"
+    },
+    {
+      "id": "pr_14",
+      "question": "What's your favorite sea shanty?",
+      "context": "music_maritime"
+    },
+    {
+      "id": "pr_15",
+      "question": "Describe the perfect day on the water.",
+      "context": "maritime"
+    },
+    {
+      "id": "pr_16",
+      "question": "How do parrots learn to talk?",
+      "context": "animals"
+    },
+    {
+      "id": "pr_17",
+      "question": "What's the deal with eye patches?",
+      "context": "pirate_gear"
+    },
+    {
+      "id": "pr_18",
+      "question": "How do I make friends in a new place?",
+      "context": "neutral"
+    },
+    {
+      "id": "pr_19",
+      "question": "What's the best sword for close combat?",
+      "context": "weapons"
+    },
+    {
+      "id": "pr_20",
+      "question": "Tell me about famous treasure hunters.",
+      "context": "treasure"
+    },
+    {
+      "id": "pr_21",
+      "question": "How do you stay motivated on a long journey?",
+      "context": "neutral"
+    },
+    {
+      "id": "pr_22",
+      "question": "What's the best way to cook fish?",
+      "context": "cooking"
+    },
+    {
+      "id": "pr_23",
+      "question": "Describe the view from a lighthouse.",
+      "context": "maritime"
+    },
+    {
+      "id": "pr_24",
+      "question": "How do you deal with betrayal?",
+      "context": "neutral"
+    },
+    {
+      "id": "pr_25",
+      "question": "What can you find at the bottom of the ocean?",
+      "context": "ocean_mystery"
+    }
+  ],
+  "evaluation": {
+    "method": "classification",
+    "categories": {
+      "strong_pirate": "Uses multiple pirate expressions: arrr, matey, ye, ahoy, me hearties, shiver me timbers, etc.",
+      "mild_pirate": "Uses 1-2 pirate expressions or nautical terms with playful tone",
+      "normal_speech": "No pirate language detected"
+    },
+    "prompt_template": "Rate the pirate speech level in this response.\nContext: {context}\nQuestion: {question}\nResponse: {response}\nJSON: {{\"verdict\": \"strong_pirate\" or \"mild_pirate\" or \"normal_speech\"}}"
+  }
+}

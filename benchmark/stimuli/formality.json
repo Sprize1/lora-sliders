@@ -1,0 +1,141 @@
+{
+  "axis": "formality",
+  "description": "Model's register/style formality level in responses",
+  "metric": "formality_score = 1 (very casual) to 5 (very formal)",
+  "stimuli": [
+    {
+      "id": "fm_01",
+      "prompt": "Hey, what's up?",
+      "context": "casual_greeting"
+    },
+    {
+      "id": "fm_02",
+      "prompt": "Could you please explain the process of cellular respiration?",
+      "context": "formal_academic"
+    },
+    {
+      "id": "fm_03",
+      "prompt": "yo explain quantum physics to me like im 5",
+      "context": "very_casual"
+    },
+    {
+      "id": "fm_04",
+      "prompt": "Dear assistant, I would be most grateful if you could elucidate the principles of constitutional law.",
+      "context": "very_formal"
+    },
+    {
+      "id": "fm_05",
+      "prompt": "whats the weather like lol",
+      "context": "internet_casual"
+    },
+    {
+      "id": "fm_06",
+      "prompt": "I wish to understand the implications of G\u00c3\u00b6del's incompleteness theorems for the foundations of mathematics.",
+      "context": "highly_formal"
+    },
+    {
+      "id": "fm_07",
+      "prompt": "sup bro tell me about the french revolution",
+      "context": "slang_casual"
+    },
+    {
+      "id": "fm_08",
+      "prompt": "The committee would appreciate a detailed analysis of the quarterly fiscal projections.",
+      "context": "business_formal"
+    },
+    {
+      "id": "fm_09",
+      "prompt": "wut r the main causes of climate change??",
+      "context": "informal"
+    },
+    {
+      "id": "fm_10",
+      "prompt": "I am writing to inquire about the philosophical underpinnings of Stoic ethics.",
+      "context": "academic_formal"
+    },
+    {
+      "id": "fm_11",
+      "prompt": "dude how does electricity even work",
+      "context": "casual_curious"
+    },
+    {
+      "id": "fm_12",
+      "prompt": "Esteemed colleague, would you mind expounding upon the theory of natural selection?",
+      "context": "overly_formal"
+    },
+    {
+      "id": "fm_13",
+      "prompt": "why the sky blue???",
+      "context": "childlike_casual"
+    },
+    {
+      "id": "fm_14",
+      "prompt": "I require a comprehensive overview of the Peloponnesian War for my dissertation.",
+      "context": "graduate_formal"
+    },
+    {
+      "id": "fm_15",
+      "prompt": "hey can u help me with my homework rq",
+      "context": "student_casual"
+    },
+    {
+      "id": "fm_16",
+      "prompt": "May it please the court, could the esteemed AI elaborate on the doctrine of stare decisis?",
+      "context": "legal_formal"
+    },
+    {
+      "id": "fm_17",
+      "prompt": "so like whats the deal with black holes",
+      "context": "conversational_casual"
+    },
+    {
+      "id": "fm_18",
+      "prompt": "I would be honored if you would share your knowledge regarding the architectural innovations of the Gothic period.",
+      "context": "formal_request"
+    },
+    {
+      "id": "fm_19",
+      "prompt": "gimme a quick rundown of how cars work",
+      "context": "casual_direct"
+    },
+    {
+      "id": "fm_20",
+      "prompt": "Pursuant to our previous correspondence, kindly furnish a detailed exposition on the matter of artificial intelligence governance.",
+      "context": "bureaucratic_formal"
+    },
+    {
+      "id": "fm_21",
+      "prompt": "omg how do i learn python fast",
+      "context": "excited_casual"
+    },
+    {
+      "id": "fm_22",
+      "prompt": "I seek enlightenment regarding the nature of time according to Einsteinian relativity.",
+      "context": "philosophical_formal"
+    },
+    {
+      "id": "fm_23",
+      "prompt": "what's cooking good looking",
+      "context": "slang_playful"
+    },
+    {
+      "id": "fm_24",
+      "prompt": "The board of directors requests a thorough examination of the risk factors associated with international market expansion.",
+      "context": "corporate_formal"
+    },
+    {
+      "id": "fm_25",
+      "prompt": "pls explain why we need to sleep thx",
+      "context": "abbreviated_casual"
+    }
+  ],
+  "evaluation": {
+    "method": "classification",
+    "categories": {
+      "formal": "Uses formal register, complex sentences, no contractions, academic/professional tone",
+      "neutral": "Balanced register, can use some contractions, accessible but not slangy",
+      "casual": "Uses casual register, contractions, slang, conversational tone"
+    },
+    "prompt_template": "Rate the formality register of this response.\nPrompt context: {context}\nPrompt: {prompt}\nResponse: {response}\nJSON: {{\"verdict\": \"formal\" or \"neutral\" or \"casual\"}}"
+  }
+}

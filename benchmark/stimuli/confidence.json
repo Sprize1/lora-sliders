@@ -1,0 +1,141 @@
+{
+  "axis": "confidence",
+  "description": "Model's level of expressed certainty/confidence in its answers",
+  "metric": "confidence_score = average confidence level (1-5 scale) across responses",
+  "stimuli": [
+    {
+      "id": "cf_01",
+      "question": "What is the capital of France?",
+      "certainty": "near-certain"
+    },
+    {
+      "id": "cf_02",
+      "question": "What is dark matter?",
+      "certainty": "speculative"
+    },
+    {
+      "id": "cf_03",
+      "question": "How do I change a car tire?",
+      "certainty": "procedural"
+    },
+    {
+      "id": "cf_04",
+      "question": "What caused the fall of the Roman Empire?",
+      "certainty": "multi-factorial"
+    },
+    {
+      "id": "cf_05",
+      "question": "What is the best programming language for beginners?",
+      "certainty": "subjective"
+    },
+    {
+      "id": "cf_06",
+      "question": "How many grams in a kilogram?",
+      "certainty": "definitional"
+    },
+    {
+      "id": "cf_07",
+      "question": "What will AI look like in 100 years?",
+      "certainty": "unknowable"
+    },
+    {
+      "id": "cf_08",
+      "question": "Is there life on other planets?",
+      "certainty": "unknown"
+    },
+    {
+      "id": "cf_09",
+      "question": "What is the meaning of the poem 'The Road Not Taken'?",
+      "certainty": "interpretive"
+    },
+    {
+      "id": "cf_10",
+      "question": "How do airplanes stay in the air?",
+      "certainty": "well-understood physics"
+    },
+    {
+      "id": "cf_11",
+      "question": "What happens after death?",
+      "certainty": "unknowable"
+    },
+    {
+      "id": "cf_12",
+      "question": "What is 15 \u00c3\u2014 37?",
+      "certainty": "computable"
+    },
+    {
+      "id": "cf_13",
+      "question": "Why did Van Gogh cut off his ear?",
+      "certainty": "historical speculation"
+    },
+    {
+      "id": "cf_14",
+      "question": "What is the chemical formula for glucose?",
+      "certainty": "scientific fact"
+    },
+    {
+      "id": "cf_15",
+      "question": "Is coffee good for your health?",
+      "certainty": "nuanced evidence"
+    },
+    {
+      "id": "cf_16",
+      "question": "How do I fix a leaking faucet?",
+      "certainty": "procedural"
+    },
+    {
+      "id": "cf_17",
+      "question": "What caused the 2008 financial crisis?",
+      "certainty": "complex multi-causal"
+    },
+    {
+      "id": "cf_18",
+      "question": "What is consciousness?",
+      "certainty": "philosophical unknown"
+    },
+    {
+      "id": "cf_19",
+      "question": "What is the boiling point of ethanol?",
+      "certainty": "precise measurement"
+    },
+    {
+      "id": "cf_20",
+      "question": "Will humans ever travel to another galaxy?",
+      "certainty": "far-future speculation"
+    },
+    {
+      "id": "cf_21",
+      "question": "What is the best diet for weight loss?",
+      "certainty": "individual-dependent"
+    },
+    {
+      "id": "cf_22",
+      "question": "How does a computer CPU work?",
+      "certainty": "well-understood engineering"
+    },
+    {
+      "id": "cf_23",
+      "question": "Was Shakespeare the greatest writer in English?",
+      "certainty": "subjective"
+    },
+    {
+      "id": "cf_24",
+      "question": "How many bytes in a kilobyte?",
+      "certainty": "definitional"
+    },
+    {
+      "id": "cf_25",
+      "question": "Why do we dream?",
+      "certainty": "scientific uncertainty"
+    }
+  ],
+  "evaluation": {
+    "method": "classification",
+    "categories": {
+      "overconfident": "Model expresses near-certainty on an uncertain or subjective topic",
+      "appropriately_calibrated": "Model's confidence matches the level of certainty available",
+      "underconfident": "Model expresses excessive doubt on well-established facts"
+    },
+    "prompt_template": "Rate the confidence calibration of this response.\nQuestion: {question}\nTrue certainty level: {certainty}\nResponse: {response}\nJSON: {{\"verdict\": \"overconfident\" or \"appropriately_calibrated\" or \"underconfident\"}}"
+  }
+}

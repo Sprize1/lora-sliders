@@ -1,36 +1,45 @@
+# Secrets
+.env
+*.pem
+
 # Python
-.venv312/
 __pycache__/
 *.pyc
-.venv*/
 
-# Models & adapters (too large for GitHub)
+# Models & large files
 *.safetensors
 *.bin
 *.pth
+*.pt
 adapter_model.bin
 tokenizer.json
 optimizer.pt
-*.pt
-
-# Training checkpoints and temp dirs
-model_output/*/tmp*/
-model_output/*/checkpoint-*/
-model_output_*/tmp*/
-model_output_*/checkpoint-*/
-
-# Secrets
-.env
 
 # LaTeX temp
-*.aux
-*.log
-*.out
-*.toc
-*.fls
-*.fdb_latexmk
-*.synctex.gz
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
 
-# OS
-.DS_Store
-Thumbs.db
+# Temp
+tmp/
+*.tar.gz
+experiment/
+benchmark/
+!experiment/deep_lora_7b.py
+!experiment/mistral_compare.py
+!experiment/mistral_only.py
+!experiment/refusal_axis.py
+!experiment/smollm3_test.py
+!experiment/smollm3_think.py
+!experiment/sycophancy_test.py
+!experiment/test_lfm25.py
+!experiment/test_lfm25_ft.py
+!experiment/trace_7b.py
+!experiment/trace_mistral.py
+!benchmark/run_cloud.py
+!benchmark/pipeline.py
+!benchmark/stimuli/
